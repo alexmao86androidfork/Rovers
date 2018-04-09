@@ -7,6 +7,7 @@ Rovers hovers above the screen at all time and allows the user to launch applica
 
 ## What this code includes
 * **Rovers Android App**
+	* Find on Google Play: https://play.google.com/store/apps/details?id=com.schiztech.rovers.app
 * **Api App Library** for building dedicated Rover Actions
 	* Comes with an example here: https://github.com/schiztech/Rovers-API
 * **Rover Actions** by SchizTech:
