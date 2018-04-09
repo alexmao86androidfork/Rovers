@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    >
+
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+
+    >
+    <View
+        android:layout_width="@dimen/navigation_trigger_switch_size"
+        android:layout_height="@dimen/navigation_trigger_switch_size"
+        android:layout_gravity="bottom|right"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/navigation_trigger_switch_offset"
+        android:layout_marginBottom="@dimen/navigation_trigger_switch_offset"
+        android:background="@drawable/circle_shade"
+        />
+    <com.schiztech.rovers.app.ui.CircleButton
+        android:id="@+id/rover_circlebutton_indicator"
+        android:layout_width="@dimen/navigation_trigger_size"
+        android:layout_height="@dimen/navigation_trigger_size"
+        android:layout_gravity="center"
+        app:shadow_size="@dimen/navigation_trigger_shadow"
+        app:is_shadow_tilted="false"
+        app:shadow_color="@color/md_grey_400"
+        app:circle_color="@color/md_grey_200"
+        android:enabled="false"
+        android:src="@drawable/ic_logo_big"
+        />
+    <com.schiztech.rovers.app.ui.CircleButton
+        android:id="@+id/rover_circlebutton_trigger"
+        android:layout_width="@dimen/navigation_trigger_switch_size"
+        android:layout_height="@dimen/navigation_trigger_switch_size"
+        android:layout_gravity="bottom|right"
+        app:shadow_size="@dimen/navigation_trigger_switch_shadow"
+        app:is_shadow_tilted="false"
+        app:shadow_color="@android:color/transparent"
+        android:layout_marginRight="@dimen/navigation_trigger_switch_offset"
+        android:layout_marginBottom="@dimen/navigation_trigger_switch_offset"
+        app:circle_color="@color/md_light_blue_A400"
+        android:src="@drawable/ic_navigation_switch"
+        />
+</FrameLayout>
+
+    <com.schiztech.rovers.app.ui.ArcTextView
+        android:id="@+id/rover_textview_indicator"
+        android:layout_width="@dimen/navigation_trigger_indicator_size"
+        android:layout_height="@dimen/navigation_trigger_indicator_size"
+        android:layout_gravity="center_horizontal"
+        app:text="@string/navigation_disabled"
+        app:diameter="@dimen/navigation_trigger_indicator_diameter"
+        app:start_angle="@integer/navigation_trigger_indicator_start_angle"
+        app:sweep_angle="@integer/navigation_trigger_indicator_sweep_angle"
+        app:text_size="@dimen/navigation_trigger_indicator_textsize"
+        app:text_color="@color/navigation_fragment_indicator_off"
+        />
+
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="content_card_width">600dp</dimen>
+    <dimen name="content_card_margin_top">84dp</dimen>
+    <dimen name="content_card_margin_end">36dp</dimen>
+    <dimen name="content_card_elevation">8dp</dimen>
+    <dimen name="content_card_corner_radius">0dp</dimen>
+
+    <dimen name="navigation_menu_margin">@dimen/gap_huge</dimen>
+
+
+</resources>

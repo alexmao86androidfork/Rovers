@@ -1,0 +1,67 @@
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/walkthrough_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:animateLayoutChanges="true">
+        <Button
+            android:id="@+id/walkthrough_doneButton"
+            android:visibility="gone"
+            style="@style/AppTheme.Button.Walkthrough"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/walkthrought_done_padding"
+            android:layout_margin="@dimen/walkthrought_done_margin"
+            android:text="Start Rovers"
+            android:textSize="@dimen/text_title"
+            android:layout_gravity="center"
+            />
+
+        <RelativeLayout
+            android:id="@+id/walkthrough_bottomLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <me.relex.circleindicator.CircleIndicator
+                android:id="@+id/walkthrough_circleIndicator"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_height="@dimen/walkthrought_bottom_panel_height" />
+
+            <Button
+                android:id="@+id/walkthrough_skipButton"
+                style="@style/AppTheme.Button.Flat.Walkthrough"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/walkthrough_skip"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <Button
+                android:id="@+id/walkthrough_nextButton"
+                style="@style/AppTheme.Button.Flat.Walkthrough"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorial_next"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

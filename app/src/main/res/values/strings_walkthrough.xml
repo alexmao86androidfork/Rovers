@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walkthrough_activity_title">Rovers Tutorial</string>
+
+    <string name="walkthrough_skip">skip</string>
+    <string name="walkthrough_thats_it">That\'s it,</string>
+    <string name="walkthrough_ready">You are ready to Rover!</string>
+
+    <string name="walkthrough_step1_title">This is the Rovers Trigger</string>
+    <string name="walkthrough_step1_desc">Tapping it will launch the floating launcher</string>
+
+    <string name="walkthrough_step2_title">4 Types of Rovers</string>
+    <string name="walkthrough_step2_desc">You can add Apps, Shortcuts, Folders &amp; Actions</string>
+
+    <string name="walkthrough_step3_title">Long Click to edit</string>
+    <string name="walkthrough_step3_desc">Launch Edit-Mode by long clicking a Rover</string>
+
+    <string name="walkthrough_step4_title">Delete &amp; Reorder</string>
+    <string name="walkthrough_step4_desc">On Edit-Mode, slide to delete or long-click to reorder</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rovers_launch_error_lost">Esse Rover parece estar perdido. Tente removê-lo e adicioná-lo novamente.</string>
+    <string name="rovers_launch_error_default">Esse Rover tem um problema. Tente removê-lo e adicioná-lo novamente.</string>
+    <string name="rovers_hide">Esconder</string>
+    <string name="rovers_hidden_alert_title">O Rovers ainda está aqui</string>
+    <string name="rovers_hidden_alert_desc">Você pode mostrar o Rovers novamente no painel de notificações</string>
+    <string name="rovers_hidden_alert_button">entendi</string>
+</resources>

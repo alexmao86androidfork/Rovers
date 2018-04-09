@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="app_name">Ação de Contato Direto Rovers</string>
+    <string name="title_activity_direct_contact_action">Ação de Contato</string>
+    <string name="roveraction_directsms_label">Sms Direto</string>
+    <string name="roveraction_directsms_desc">Envie sms para seus contatos favoritos com Um Toque.</string>
+    <string name="roveraction_directdial_label">Ligação Direta</string>
+    <string name="roveraction_directdial_desc">Ligue para seus contatos favoritos com Um Toque.</string>
+</resources>

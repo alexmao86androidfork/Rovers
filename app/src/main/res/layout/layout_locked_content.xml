@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lockedContent_layout"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/content_offset_normal"
+    android:gravity="center"
+    android:clickable="true"
+    android:background="@color/dialog_background_de">
+
+    <ImageView
+        android:id="@+id/lockedContent_icon"
+        android:layout_width="@dimen/image_icon_xlarge"
+        android:layout_height="@dimen/image_icon_xlarge"
+        android:src="@drawable/ic_locked_content"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/lockedContent_description"
+        style="@style/AppTheme.TextAppearance.Subhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@color/md_red_500"
+        android:layout_margin="@dimen/content_offset_small"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:id="@+id/lockedContent_btn"
+        style="@style/AppTheme.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/extensions_get_extensions"/>
+
+</LinearLayout>

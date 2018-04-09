@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="batch_reward_message_default">You have successfully obtained an offer!</string>
+    <string name="batch_reward_title_default">Congratulations!</string>
+
+    <string name="batch_restore_found_promotions">We found some promotions that you have got in the past!</string>
+    <string name="batch_checking_promotion_code">Checking promotion code</string>
+    <string name="batch_found_promotion_code">Found an promotion code, checking…</string>
+
+    <!-- Errors -->
+    <string name="batch_error_network">We could not verify your promotion due to a problem with your network. Please make sure you are connected to the internet and try again.</string>
+    <string name="batch_error_unknown_code">Sorry, The promotion code seems to be wrong</string>
+    <string name="batch_error_expired_code">Sorry, this promotion is expired</string>
+    <string name="batch_error_not_started">Sorry, this promotion is not available yet. Please try again later.</string>
+    <string name="batch_error_capped">Sorry, this promotion\'s limit was reached. Try to be quicker next time!</string>
+    <string name="batch_error_already_consumed">You have already got this promotion.</string>
+    <string name="batch_error_not_targeted">Sorry, You are not eligible for this promotion.</string>
+    <string name="batch_error_default">Sorry, There seems to be a problem with this promotion. Please try again later</string>
+
+</resources>

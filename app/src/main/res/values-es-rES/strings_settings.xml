@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_fragment_title">Rovers Settings</string>
+
+    <string name="settings_header_title">Settings</string>
+    <string name="settings_header_desc">Tweak and adjust the settings to personlize your Rover experience.</string>
+
+    <string name="settings_pref_header_rover_items">Rover Items</string>
+    <string name="settings_pref_header_corner_host">Corner Host</string>
+    <string name="settings_pref_header_floating_trigger">Floating Trigger</string>
+    <string name="settings_pref_header_misc">Miscellaneous</string>
+
+    <string name="settings_pref_def_app_color_title">Default Application Color</string>
+    <string name="settings_pref_def_app_color_desc">The default color of an Application Rover</string>
+
+    <string name="settings_pref_def_shortcut_color_title">Default Shortcut Color</string>
+    <string name="settings_pref_def_shortcut_color_desc">The default color of a Shortcut Rover</string>
+
+    <string name="settings_pref_def_folder_color_title">Default Folder Color</string>
+    <string name="settings_pref_def_folder_color_desc">The default color of a Folder Rover</string>
+
+    <string name="settings_pref_sticky_corner_title">Sticky Corner</string>
+    <string name="settings_pref_sticky_corner_desc">Default corner which the host will open at</string>
+
+    <string name="settings_pref_orientation_title">Orientation</string>
+    <string name="settings_pref_orientation_desc">The orientation of the host</string>
+
+    <string name="settings_pref_add_on_edit_only_title">Add Rover On Edit Mode Only</string>
+    <string name="settings_pref_add_on_edit_only_desc_on">Showing Add Rover only on edit mode</string>
+    <string name="settings_pref_add_on_edit_only_desc_off">Add Rover is always visible</string>
+
+    <string name="settings_pref_trigger_bg_color_title">Background Color</string>
+    <string name="settings_pref_trigger_bg_color_desc">The background color of the floating trigger</string>
+
+    <string name="settings_pref_trigger_icon_color_title">Icon Color</string>
+    <string name="settings_pref_trigger_icon_color_desc">The icon color of the floating trigger</string>
+
+    <string name="settings_pref_trigger_rest_alpha_title">Rest Alpha</string>
+    <string name="settings_pref_trigger_rest_alpha_desc">The transparency level of the trigger when resting</string>
+
+    <string name="settings_pref_trigger_rest_offset_title">Rest Offset</string>
+    <string name="settings_pref_trigger_rest_offset_desc">The offset level of the trigger when resting</string>
+
+    <string name="settings_pref_mute_click_title">Mute Rover Click Sound</string>
+    <string name="settings_pref_mute_click_desc_on">Clicking a Rover is muted</string>
+    <string name="settings_pref_mute_click_desc_off">Clicking a Rover makes a sound</string>
+
+    <string name="settings_pref_anon_data_title">Send Anonymous Data</string>
+    <string name="settings_pref_anon_data_desc_on">Help up improve by sending completely anonymous data</string>
+    <string name="settings_pref_anon_data_desc_off">Not sending anonymous data</string>
+
+    <string name="settings_pref_crash_reports_title">Send Crash Reports</string>
+    <string name="settings_pref_crash_reports_desc_on">Automatically sending anonymous crash reports</string>
+    <string name="settings_pref_crash_reports_desc_off">Not sending crash reports</string>
+
+</resources>

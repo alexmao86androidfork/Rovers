@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rovers</string>
+    <!-- ACRA -->
+    <string name="acra_toast_crash">Отправка отчёта о сбое...</string>
+    <!-- Errors -->
+    <string name="error_default">Обнаружена проблема...</string>
+    <string name="error_browse">Невозможно найти приложение браузера.</string>
+    <!-- Colors -->
+    <string name="colors_material">Материальные цвета</string>
+    <string name="colors_basic">Основные цвета</string>
+    <string name="colors_default">Цвет по умолчанию</string>
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Открыть меню</string>
+    <string name="navigation_drawer_close">Закрыть меню</string>
+    <!-- Activity -->
+    <string name="title_activity_rovers">Rovers</string>
+    <string name="title_activity_sync_rover">ToggleActivity</string>
+    <!-- Dialog -->
+    <string name="dialog_dismiss">Отмена</string>
+    <string name="list_empty">Нечего показывать...</string>
+    <!-- Notification -->
+    <string name="notification_title">Rovers работает</string>
+    <string name="notification_show_trigger">Нажмите для отображения кнопки</string>
+    <string name="notification_hide_trigger">Нажмите для скрытия кнопки</string>
+    <string name="notification_settings">Настройки</string>
+</resources>

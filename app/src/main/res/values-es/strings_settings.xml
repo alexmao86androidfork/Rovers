@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_fragment_title">Ajustes de Rovers</string>
+    <string name="settings_header_title">Ajustes</string>
+    <string name="settings_header_desc">"Mejora y ajusta los ajustes para personalizar tu experiencia con Rover "</string>
+    <string name="settings_pref_header_rover_items">Inventario de Rover</string>
+    <string name="settings_pref_header_corner_host">Anfritrión</string>
+    <string name="settings_pref_header_floating_trigger">Lanzador Flotante</string>
+    <string name="settings_pref_header_misc">Otros</string>
+    <string name="settings_pref_def_app_color_title">Color Predeterminado de la Aplicación</string>
+    <string name="settings_pref_def_app_color_desc">El color predeterminado  de la aplicación Rover</string>
+    <string name="settings_pref_def_shortcut_color_title">Color Predeterminado del Acceso Directo</string>
+    <string name="settings_pref_def_shortcut_color_desc">Color predeterminado del Acceso Directo Rover</string>
+    <string name="settings_pref_def_folder_color_title">Color de Carpeta Predeterminado</string>
+    <string name="settings_pref_def_folder_color_desc">"El color predeterminado de las Carpeta Rover "</string>
+    <string name="settings_pref_sticky_corner_title">Lateral</string>
+    <string name="settings_pref_sticky_corner_desc">Lateral Predeterminado donde el anfritrión abrirá</string>
+    <string name="settings_pref_orientation_title">Orientación</string>
+    <string name="settings_pref_orientation_desc">La orientación del anfitrión</string>
+    <string name="settings_pref_add_on_edit_only_title">Agrega Rover En Modo de Edición solamente</string>
+    <string name="settings_pref_add_on_edit_only_desc_on">Mostrando Agregar Rover solo en Modo de Edición</string>
+    <string name="settings_pref_add_on_edit_only_desc_off">Agregar Rover es visible siempre</string>
+    <string name="settings_pref_trigger_bg_color_title">Color de Fondo</string>
+    <string name="settings_pref_trigger_bg_color_desc">El color del Fondo del disparador flotante</string>
+    <string name="settings_pref_trigger_icon_color_title">Color de los Íconos</string>
+    <string name="settings_pref_trigger_icon_color_desc">El color de los íconos del disparador flotante</string>
+    <string name="settings_pref_trigger_rest_alpha_title">Resto de Alfa</string>
+    <string name="settings_pref_trigger_rest_alpha_desc">El nivel de transparencia del disparador cuando está descansando</string>
+    <string name="settings_pref_trigger_rest_offset_title">Resto del OffSet</string>
+    <string name="settings_pref_trigger_rest_offset_desc">El nivel de Offset del disparador cuando está descansando</string>
+    <string name="settings_pref_mute_click_title">Silenciar el botón de Click de Rover</string>
+    <string name="settings_pref_mute_click_desc_on">El botón de Rover está silenciado</string>
+    <string name="settings_pref_mute_click_desc_off">Clickear Rover hará un sonido</string>
+    <string name="settings_pref_anon_data_title">Enviar datos anónimos</string>
+    <string name="settings_pref_anon_data_desc_on">Ayúdanos a mejorar enviando información anónima y completa</string>
+    <string name="settings_pref_anon_data_desc_off">No estás enviando información anónima</string>
+    <string name="settings_pref_crash_reports_title">Enviar reportes de caída</string>
+    <string name="settings_pref_crash_reports_desc_on">Enviar automáticamente y anónimamente los reportes de caída</string>
+    <string name="settings_pref_crash_reports_desc_off">No estás enviando los reportes de caída</string>
+</resources>

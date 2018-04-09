@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rovers</string>
+    <!-- ACRA -->
+    <string name="acra_toast_crash">Enviando reporte de caída...</string>
+    <!-- Errors -->
+    <string name="error_default">Encontramos un problema...</string>
+    <string name="error_browse">No se puede encontrar una aplicación de búsqueda.</string>
+    <!-- Colors -->
+    <string name="colors_material">Colores Materiales</string>
+    <string name="colors_basic">Colores Básicos</string>
+    <string name="colors_default">Color predeterminado</string>
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Abrir cajón de navegación</string>
+    <string name="navigation_drawer_close">Cerrar cajón de navegación</string>
+    <!-- Activity -->
+    <string name="title_activity_rovers">Rovers</string>
+    <string name="title_activity_sync_rover">Activar Actividad</string>
+    <!-- Dialog -->
+    <string name="dialog_dismiss">Rechazar</string>
+    <string name="list_empty">Nada para mostrar...</string>
+    <!-- Notification -->
+    <string name="notification_title">Rovers está funcionando</string>
+    <string name="notification_show_trigger">Toca para mostrar el lanzador</string>
+    <string name="notification_hide_trigger">Toca para ocultar el lanzador</string>
+    <string name="notification_settings">Ajustes</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="walkthrought_header_textsize">@dimen/text_title</dimen>
+    <dimen name="walkthrought_description_textsize">@dimen/text_subhead</dimen>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="@dimen/grid_icon_column_width"
+    android:layout_height="@dimen/grid_icon_column_width"
+    android:minHeight="?android:listPreferredItemHeight"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!--suppress AndroidLintUseCompoundDrawables -->
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:minHeight="?android:listPreferredItemHeight"
+    >
+
+    <!--suppress AndroidLintUseCompoundDrawables -->
+    <ImageView
+        android:id="@android:id/icon"
+        android:layout_width="@dimen/image_icon_normal"
+        android:layout_height="@dimen/image_icon_normal"
+        android:src="@drawable/ic_launcher"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+    <TextView
+        android:id="@android:id/text1"
+        style="?android:textAppearanceSmall"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:maxLines="1"
+        android:padding="@dimen/content_offset_internal"
+        android:ellipsize="none"/>
+
+</LinearLayout>
+
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/downloadIcon"
+        android:layout_width="@dimen/image_icon_tiny"
+        android:layout_height="@dimen/image_icon_tiny"
+        android:background="@drawable/layout_download_background"
+        android:layout_margin="@dimen/gap_normal"
+        android:padding="@dimen/gap_small"
+        android:src="@drawable/ic_action_download"
+        android:layout_gravity="end|right"
+        />
+
+</FrameLayout>

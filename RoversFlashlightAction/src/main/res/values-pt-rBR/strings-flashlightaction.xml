@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ação de Lanterna Rovers</string>
+    <string name="title_activity_toggle_flashlight">Alternar Lanterna</string>
+    <string name="roveraction_flashlight_label">Lanterna</string>
+    <string name="roveraction_flashlight_desc">Lanterna de acesso rápido. Ilumine qualquer espaço escuro instantaneamente!</string>
+</resources>

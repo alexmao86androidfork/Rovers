@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="actions_fragment_title">Rovers Actions</string>
+
+    <string name="actions_settings_launch_error">Could not launch the this action\'s settings. Might be a corrupted link.</string>
+    <string name="actions_api_title">Rover Actions API</string>
+    <string name="actions_api_desc_opening">Android developer? Build your own Rover Action within minutes!</string>
+    <string name="actions_api_desc_middle">A simple api will help you create Rovers Actions and add them to your existing applications, or make stand-alone Rovers Actions.</string>
+    <string name="actions_api_desc_end">So, Can we count you in?</string>
+    <string name="actions_api_learn_more">Learn More</string>
+    <string name="actions_api_nevermind">Nevermind</string>
+
+    <string name="actions_installed">Installed Actions</string>
+    <string name="actions_suggested">Suggested Actions</string>
+
+    <string name="actions_get_more_play">Get more on Google Play</string>
+    <string name="actions_get_more">Get More Actions</string>
+
+    <string name="actions_header_title">Actions</string>
+    <string name="actions_header_desc">Special one-click shortcuts, like turning on a flashlight or calling home.</string>
+
+
+    <string name="actions_install">install</string>
+    <string name="actions_app_info">app info</string>
+    <string name="actions_settings">settings</string>
+</resources>

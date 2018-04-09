@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="navigation_menu_margin">@dimen/gap_huge</dimen>
+    <dimen name="navigation_menu_item_height">@dimen/image_icon_xlarge</dimen>
+    <dimen name="navigation_menu_extensions_height">@dimen/image_icon_large</dimen>
+
+    <dimen name="navigation_menu_extensions_margin">@dimen/gap_large</dimen>
+    <dimen name="navigation_menu_extensions_margin_negative">@dimen/gap_large_negative</dimen>
+
+    <dimen name="navigation_menu_bubble_large">18dp</dimen>
+    <dimen name="navigation_menu_bubble_small">12dp</dimen>
+
+    <dimen name="navigation_trigger_switch_size">@dimen/image_icon_xlarge</dimen>
+    <dimen name="navigation_trigger_switch_offset">@dimen/content_offset_internal</dimen>
+    <dimen name="navigation_trigger_switch_shadow">@dimen/gap_small</dimen>
+
+    <dimen name="navigation_trigger_size">240dp</dimen>
+    <!-- Double the navigation_trigger_switch_shadow -->
+    <dimen name="navigation_trigger_shadow">@dimen/gap_normal</dimen>
+
+    <dimen name="navigation_trigger_indicator_size">264dp</dimen>
+    <dimen name="navigation_trigger_indicator_diameter">258dp</dimen>
+    <dimen name="navigation_trigger_indicator_textsize">@dimen/text_headline</dimen>
+
+
+
+</resources>

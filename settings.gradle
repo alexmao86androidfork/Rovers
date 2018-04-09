@@ -1,0 +1,1 @@
+include ':app', ':RoversBatteryAction', ':RoversFlashlightAction', ':RoversDirectContactAction', ':roversapilibrary', 'standout', 'RoversSettingsAction'

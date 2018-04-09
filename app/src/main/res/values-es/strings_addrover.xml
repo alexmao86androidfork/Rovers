@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="addrover_title">Agrega Rover</string>
+    <string name="addrover_rovers_added">Rover fue añadido</string>
+    <string name="addrover_remaining">restante</string>
+    <string name="addrover_dialcall_action_error">Los accesos directos para llamadas no son soportados, por favor utiliza la acción de contacto directo.</string>
+    <string name="addrover_apps">Apps</string>
+    <string name="addrover_shortcuts">"Accesos Directos "</string>
+    <string name="addrover_actions">Acciones</string>
+    <string name="addrover_folder">Carpeta</string>
+    <string name="addrover_get_unlimited">consigue rovers ilimitados</string>
+    <string name="addrover_cancel">cancelar</string>
+    <string name="addrover_add">agregar</string>
+</resources>

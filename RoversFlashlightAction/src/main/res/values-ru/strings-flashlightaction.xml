@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Действие фонарика Rovers</string>
+    <string name="title_activity_toggle_flashlight">Переключатель фонарика</string>
+    <string name="roveraction_flashlight_label">Фонарик</string>
+    <string name="roveraction_flashlight_desc">Быстрое включение фонарика. Мгновенно осветите  тёмное место!</string>
+</resources>

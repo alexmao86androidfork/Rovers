@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="battery_charging">#03A9F4</color><!--Light Blue 500-->
+    <color name="battery_full">#2E7D32</color><!--Green 800-->
+    <color name="battery_high">#4CAF50</color><!--Green 500-->
+    <color name="battery_high_med">#8BC34A</color><!--Light Green 500-->
+    <color name="battery_medium">#EF6C00</color><!--Orange 800-->
+    <color name="battery_low">#F44336</color><!--Red 500-->
+    <color name="battery_empty">#B71C1C</color><!--Red 900-->
+
+</resources>

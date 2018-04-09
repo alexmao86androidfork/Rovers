@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    <string name="addrover_title">Add Rover</string>
+    <string name="addrover_rovers_added">rovers added</string>
+    <string name="addrover_remaining">remaining</string>
+    <string name="addrover_limit">max limit: </string>
+    <string name="addrover_dialcall_action_error">Dial/Call shortcuts are not supported, please use Direct Contact Action.</string>
+
+    <string name="addrover_apps">Apps</string>
+    <string name="addrover_shortcuts">Shortcuts</string>
+    <string name="addrover_actions">Actions</string>
+    <string name="addrover_folder">Folder</string>
+
+    <string name="addrover_get_unlimited">get unlimited rovers</string>
+    <string name="addrover_cancel">cancel</string>
+    <string name="addrover_add">add</string>
+
+</resources>

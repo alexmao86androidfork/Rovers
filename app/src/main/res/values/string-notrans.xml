@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+    <!-- Fragment Tags -->
+    <string name="fragment_roverlytics" translatable="false">frag:roverlytics</string>
+    <string name="fragment_navigation" translatable="false">frag:navigation</string>
+    <string name="fragment_settings" translatable="false">frag:settings</string>
+    <string name="fragment_actions" translatable="false">frag:actions</string>
+    <string name="fragment_extensions" translatable="false">frag:extensions</string>
+    <string name="fragment_about" translatable="false">frag:about</string>
+    <string name="fragment_select_action" translatable="false">frag:select:action</string>
+    <string name="fragment_select_app" translatable="false">frag:select:app</string>
+    <string name="fragment_select_color" translatable="false">frag:select:color</string>
+    <string name="fragment_select_design" translatable="false">frag:select:design</string>
+    <string name="fragment_select_recent" translatable="false">frag:select:recent</string>
+    <string name="fragment_select_shortcut" translatable="false">frag:select:shortcut</string>
+    <string name="fragment_select_rovertype" translatable="false">frag:select:rovertype</string>
+
+    <!-- Dialog Tags -->
+    <string name="dialog_translation" translatable="false">dialog:translation</string>
+    <string name="dialog_actionsapi" translatable="false">dialog:actionsapi</string>
+
+
+    <!-- Pref Files -->
+    <string name="prefs_main" translatable="false">prefs_main</string>
+    <string name="prefs_items" translatable="false">prefs_items</string>
+    <string name="prefs_roverlytics" translatable="false">prefs_roverlytics</string>
+    <string name="prefs_windows" translatable="false">prefs_windows</string>
+
+
+    <!-- Links -->
+    <string name="link_contact" translatable="false">http://schiztech.com/support-rovers/</string>
+    <string name="link_faq" translatable="false">http://schiztech.com/faq-rovers/</string>
+    <string name="link_translate" translatable="false">http://translate.schiztech.com/</string>
+    <string name="link_api" translatable="false">http://roversapi.schiztech.com/</string>
+    <string name="link_facebook" translatable="false">https://www.facebook.com/SchizTech/</string>
+    <string name="link_twitter" translatable="false">https://twitter.com/SchizTech/</string>
+    <string name="link_website" translatable="false">http://schiztech.com</string>
+    <string name="hashtag" translatable="false">#AndroidRovers</string>
+
+
+    <!-- Special Strings -->
+    <string name="tutorial_next" translatable="false">&#10140;</string>
+    <string name="about_schiztech_studio" translatable="false">SchizTech Studio</string>
+    <string name="about_developed_by" translatable="false">Developed &amp; Designed by SchizTech Studio (2015) All right reserved.</string>
+    <string name="about_thanks_title" translatable="false">Special Thanks!</string>
+
+    <!-- Suggested Actions Packages -->
+    <string name="roveraction_suggested_batterylevel_pkg" translatable="false">com.schiztech.rovers.actions.battery</string>
+    <string name="roveraction_suggested_directcontact_pkg" translatable="false">com.schiztech.rovers.actions.directcontact</string>
+    <string name="roveraction_suggested_flashlight_pkg" translatable="false">com.schiztech.rovers.actions.flashlight</string>
+    <string name="roveraction_suggested_settings_pkg" translatable="false">com.schiztech.rovers.actions.settings</string>
+
+
+</resources>

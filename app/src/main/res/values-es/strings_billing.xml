@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="billing_error_setup_incomplete">La configuración de facturación no está completada todavía. Intenta de nuevo en unos segundos.</string>
+    <string name="billing_error_setup_failed">La configuración de facturación ha fallado. Por favor, fíjate que estés conectado a internet y reinicia Rovers.</string>
+    <string name="billing_error_sku_extension_not_found">No se pudo identificar la extensión, intenta reiniciando Rovers. Por favor, contáctanos si el problema continúa.</string>
+    <string name="billing_error_consume_empty">No se puede consumir un item vacío.</string>
+    <string name="billing_error_verification_failed_full">Error al comprar. La verificación de autentificación falló.</string>
+    <string name="billing_thank_you">¡Gracias!</string>
+    <string name="billing_coffee_thanks_start">¡Gracias por el café!</string>
+    <string name="billing_coffee_thanks_end">Te prometemos seguir haciendo lo mejor posible para la mejor experiencia de Rovers posible.</string>
+    <string name="billing_error_already_owned">Ya tienes este Item</string>
+    <string name="billing_error_bad_response">Mala Respuesta</string>
+    <string name="billing_error_send_intent_failed">Intento de envío fallado.</string>
+    <string name="billing_error_verification_failed">Falla en la Verificación</string>
+    <string name="billing_error_unknown_purchase_response">"Respuesta de compra desconocida "</string>
+    <string name="billing_error_missing_token">Falta un Token</string>
+    <string name="billing_error_unknown_error">Error desconocido</string>
+    <string name="billing_error_invalid_consumption">Consumición Inválida</string>
+    <string name="billing_purchase_error">Error al comprar</string>
+    <string name="billing_contact_if_error_continues">Por favor contáctanos si el problema continúa.</string>
+    <string name="billing_error_verify_previous_purchases">Fallo al verificar las anteriores compras</string>
+</resources>

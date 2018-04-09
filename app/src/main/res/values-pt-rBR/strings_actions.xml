@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="actions_fragment_title">Ações do Rovers</string>
+    <string name="actions_settings_launch_error">Não foi possível iniciar as configurações dessa ação. Pode ser um link corrompido.</string>
+    <string name="actions_api_title">API de Ações do Rovers</string>
+    <string name="actions_api_desc_opening">Desenvolvedor em Android? Crie sua própria Ação Rover em minutos!</string>
+    <string name="actions_api_desc_middle">Uma API simples irá ajudá-lo a criar Ações de Rovers e adicioná-las a seus aplicativos existentes, ou a criar Ações de Rovers independentes.</string>
+    <string name="actions_api_desc_end">Então, podemos contar com você?</string>
+    <string name="actions_api_learn_more">Saiba Mais</string>
+    <string name="actions_api_nevermind">Não importa</string>
+    <string name="actions_installed">Ações instaladas</string>
+    <string name="actions_suggested">Ações sugeridas</string>
+    <string name="actions_get_more_play">Obtenha mais na Google Play</string>
+    <string name="actions_get_more">Obtenha Mais Ações</string>
+    <string name="actions_header_title">Ações</string>
+    <string name="actions_header_desc">Atalhos especiais de um toque, como acender uma lanterna ou ligar para casa.</string>
+    <string name="actions_install">Instalar</string>
+    <string name="actions_app_info">informação de aplicativo</string>
+    <string name="actions_settings">configurações</string>
+</resources>

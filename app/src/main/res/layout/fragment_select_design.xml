@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.schiztech.rovers.app.ui.SlideableFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginTop="@dimen/content_offset_normal"
+    android:layout_marginBottom="@dimen/content_offset_normal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/content_offset_small"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/design_roverPreview"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_toLeftOf="@+id/design_customizeLayout"
+            android:layout_centerInParent="true">
+
+            <include
+                layout="@layout/rover_round"
+                android:id="@+id/rover_layout" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/design_customizeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="start"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingEnd="@dimen/content_offset_normal"
+            android:paddingRight="@dimen/content_offset_normal">
+
+            <Button
+                android:id="@+id/design_customizeColorBtn"
+                style="@style/AppTheme.Button.Flat"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height_normal"
+                android:drawableLeft="@drawable/ic_design_changecolor"
+                android:paddingEnd="@dimen/design_button_padding"
+                android:paddingRight="@dimen/design_button_padding"
+                android:textColor="@android:color/black"
+                android:layout_margin="@dimen/design_button_margin"
+                android:text="@string/design_change_color" />
+
+            <Button
+                android:id="@+id/design_customizeIconBtn"
+                style="@style/AppTheme.Button.Flat"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height_normal"
+                android:drawableLeft="@drawable/ic_design_changeicon"
+                android:paddingEnd="@dimen/design_button_padding"
+                android:paddingRight="@dimen/design_button_padding"
+                android:layout_margin="@dimen/design_button_margin"
+                android:textColor="@android:color/black"
+                android:text="@string/design_change_icon" />
+
+            <Button
+                android:id="@+id/design_defaultIconBtn"
+                style="@style/AppTheme.Button.Flat"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height_normal"
+                android:drawableLeft="@drawable/ic_action_cancel"
+                android:paddingEnd="@dimen/design_button_padding"
+                android:paddingRight="@dimen/design_button_padding"
+                android:layout_margin="@dimen/design_button_margin"
+                android:textColor="@color/md_black_89"
+                android:text="@string/design_back_to_default" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</com.schiztech.rovers.app.ui.SlideableFrameLayout>

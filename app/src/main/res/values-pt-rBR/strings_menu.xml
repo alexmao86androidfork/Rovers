@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_about">Sobre</string>
+    <string name="menu_contact">Fale Conosco</string>
+    <string name="menu_translate">Traduza</string>
+    <string name="menu_tutorial">Passo a Passo</string>
+    <string name="menu_api">Api de Desenvolvedores</string>
+</resources>

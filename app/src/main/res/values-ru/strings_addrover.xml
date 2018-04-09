@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="addrover_title">Добавить Rover</string>
+    <string name="addrover_rovers_added">rovers добавлены</string>
+    <string name="addrover_remaining">остается</string>
+    <string name="addrover_dialcall_action_error">Ярлыки набора/вызова не поддерживаются, пожалуйста, используйте действие быстрого набора.</string>
+    <string name="addrover_apps">Приложения</string>
+    <string name="addrover_shortcuts">Ярлыки</string>
+    <string name="addrover_actions">Действия</string>
+    <string name="addrover_folder">Папка</string>
+    <string name="addrover_get_unlimited">получите неограниченные rovers</string>
+    <string name="addrover_cancel">отменить</string>
+    <string name="addrover_add">добавить</string>
+</resources>

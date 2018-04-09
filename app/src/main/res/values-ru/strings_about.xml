@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_fragment_title">О Rovers</string>
+    <string name="about_libraries">Библиотеки кодов</string>
+    <string name="about_icon_packs">Наборы значков</string>
+</resources>

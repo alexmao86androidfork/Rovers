@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.schiztech.rovers.app.ui.CircleButton
+        android:id="@+id/roverMenu_settingsBtn"
+        android:layout_width="@dimen/navigation_menu_item_height"
+        android:layout_height="@dimen/navigation_menu_item_height"
+        app:circle_color="@color/rovermenu_settings"
+        android:layout_margin="@dimen/content_offset_internal"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_navigation_settings" />
+
+    <com.schiztech.rovers.app.ui.CircleButton
+        android:id="@+id/roverMenu_actionsBtn"
+        android:layout_width="@dimen/navigation_menu_item_height"
+        android:layout_height="@dimen/navigation_menu_item_height"
+        app:circle_color="@color/rovermenu_actions"
+        android:layout_margin="@dimen/content_offset_internal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/roverMenu_settingsBtn"
+        android:src="@drawable/ic_navigation_actions" />
+
+    <com.schiztech.rovers.app.ui.SlideableFrameLayout
+        android:id="@+id/roverMenu_settingsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/roverMenu_settingsBtn">
+
+        <TextView
+            style="@style/AppTheme.TextAppearance.RoverMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/navigation_menu_item_height"
+            android:text="@string/navigation_settings"
+            android:layout_margin="@dimen/content_offset_internal"
+            android:gravity="center_vertical"
+            android:textColor="@color/rovermenu_settings_text" />
+    </com.schiztech.rovers.app.ui.SlideableFrameLayout>
+
+    <com.schiztech.rovers.app.ui.SlideableFrameLayout
+        android:id="@+id/roverMenu_actionsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/roverMenu_actionsBtn"
+        android:layout_below="@id/roverMenu_settingsBtn">
+
+        <TextView
+            style="@style/AppTheme.TextAppearance.RoverMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/navigation_menu_item_height"
+            android:text="@string/navigation_actions"
+            android:layout_margin="@dimen/content_offset_internal"
+            android:gravity="center_vertical"
+            android:textColor="@color/rovermenu_actions_text"
+            />
+    </com.schiztech.rovers.app.ui.SlideableFrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/navigation_menu_item_height"
+            android:layout_margin="@dimen/content_offset_internal"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_toLeftOf="@id/roverMenu_settingsBtn">
+
+            <View
+                android:id="@+id/roverMenu_settingsBubbleSmall"
+
+                android:layout_width="@dimen/navigation_menu_bubble_small"
+                android:layout_height="@dimen/navigation_menu_bubble_small"
+                android:background="@drawable/circle_rovermenu_settings"
+                android:layout_margin="@dimen/content_offset_internal" />
+
+            <View
+                android:id="@+id/roverMenu_settingsBubbleBig"
+                android:layout_width="@dimen/navigation_menu_bubble_large"
+                android:layout_height="@dimen/navigation_menu_bubble_large"
+                android:background="@drawable/circle_rovermenu_settings"
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/navigation_menu_item_height"
+            android:layout_margin="@dimen/content_offset_internal"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@id/roverMenu_actionsBtn"
+            android:layout_below="@id/roverMenu_settingsBtn">
+
+            <View
+                android:id="@+id/roverMenu_actionsBubbleBig"
+                android:layout_width="@dimen/navigation_menu_bubble_large"
+                android:layout_height="@dimen/navigation_menu_bubble_large"
+                android:background="@drawable/circle_rovermenu_actions" />
+
+            <View
+                android:id="@+id/roverMenu_actionsBubbleSmall"
+                android:layout_width="@dimen/navigation_menu_bubble_small"
+                android:layout_height="@dimen/navigation_menu_bubble_small"
+                android:layout_margin="@dimen/content_offset_internal"
+                android:background="@drawable/circle_rovermenu_actions" />
+
+        </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="roverlytics_header_height">@dimen/navigation_drawer_header_height</dimen>
+    <dimen name="roverlytics_share_padding">@dimen/imagebutton_padding</dimen>
+    <dimen name="roverlytics_content_padding">@dimen/content_offset_normal</dimen>
+
+    <dimen name="roverlytics_icon_header_size">56dp</dimen>
+    <dimen name="roverlytics_icon_normal_size">48dp</dimen>
+</resources>

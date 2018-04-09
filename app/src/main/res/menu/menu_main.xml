@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.schiztech.rovers.app.activities.MainActivity">
+
+    <item android:id="@+id/action_faq" android:title="@string/menu_faq"
+        android:orderInCategory="100" app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_help"/>
+
+    <item android:id="@+id/action_about" android:title="@string/menu_about"
+        android:orderInCategory="100" app:showAsAction="never"
+        />
+    <item android:id="@+id/action_contact" android:title="@string/menu_contact"
+        android:orderInCategory="110" app:showAsAction="never" />
+    <item android:id="@+id/action_translate" android:title="@string/menu_translate"
+        android:orderInCategory="110" app:showAsAction="never" />
+    <item android:id="@+id/action_tutorial" android:title="@string/menu_tutorial"
+        android:orderInCategory="110" app:showAsAction="never" />
+
+</menu>

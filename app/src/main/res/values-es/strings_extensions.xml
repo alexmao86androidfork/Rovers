@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="extensions_fragment_title">Extensiones de Rovers</string>
+    <string name="extensions_already_got">Ya tienes esta extension</string>
+    <string name="extensions_congratulations">¡Felicidades!</string>
+    <string name="extensions_successfully_got">Conseguiste la extensión</string>
+    <string name="extensions_more_colors_title">Más Colores</string>
+    <string name="extensions_more_colors_desc">Personaliza cada Rover con un color diferente que quieras. ¡Haz tu experiencia llena de color!</string>
+    <string name="extensions_more_rovers_title">Más Rovers</string>
+    <string name="extensions_more_rovers_desc">¡Agrega Rovers tanto como quieras, sin limitaciones, y haz tu experiencia Rovers más grande que nunca!</string>
+    <string name="extensions_more_settings_title">Más Ajustes</string>
+    <string name="extensions_more_settings_desc">¡Consigue los ajustes de lanzamiento de Rover, y haz tu experiencia de Rovers única!</string>
+    <string name="extensions_complete_package_title">Paquete Completo</string>
+    <string name="extensions_complete_package_desc">Esto incluye TODO, todas las extensiones y las futuras que vengan también.</string>
+    <string name="extensions_locked_more_colors">Disculpa, esta opción está disponible solamente con la extensión \"Más Colores\".</string>
+    <string name="extensions_locked_more_rovers">Has llegado a la máxima cantidad de Rovers posible. Agrega más bajando la extensión \"Más Rovers\" o borrando los existentes.</string>
+    <string name="extensions_locked_more_settings">Disculpa, esta opción está disponible solamente con la extensión \"Más Ajustes\".</string>
+    <string name="extensions_have_promotion">Tengo un Código Promocional</string>
+    <string name="extensions_header_title">Extensiones</string>
+    <string name="extensions_header_desc">¡Consigue más características que harán tu experiencia Rovers mucho mejor!</string>
+    <string name="extensions_get_extensions">consigue extensiones</string>
+    <string name="extensions_buy_now">compra ya</string>
+    <string name="extensions_got_it">¡Lo Tengo!</string>
+</resources>

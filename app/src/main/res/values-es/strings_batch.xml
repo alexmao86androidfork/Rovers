@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="batch_reward_message_default">¡Tu has recibido una oferta!</string>
+    <string name="batch_reward_title_default">¡Felicitaciones!</string>
+    <string name="batch_restore_found_promotions">¡Hemos encontrado algunas promociones que tenías en el pasado!</string>
+    <string name="batch_checking_promotion_code">Chequeando el código promocional</string>
+    <string name="batch_found_promotion_code">Encontramos un código de promoción, chequéandolo...</string>
+    <!-- Errors -->
+    <string name="batch_error_network">No pudimos verirficar tu código de promoción debido a tu conexión actual. Por favor asegúrate que estás conectado a internet e intenta de nuevo.</string>
+    <string name="batch_error_unknown_code">Disculpa, el código de promoción parece estar mal</string>
+    <string name="batch_error_expired_code">Disculpa, esa promoción ha expirado</string>
+    <string name="batch_error_not_started">Disculpa, esta promoción no está disponible todavía. Intentalo de nuevo luego.</string>
+    <string name="batch_error_capped">Disculpa, el límite de la promoción ha sido alcanzado. ¡Intenta más rápido la próxima vez!</string>
+    <string name="batch_error_already_consumed">Ya tienes esta promoción.</string>
+    <string name="batch_error_not_targeted">Perdón. No has sido elegido para esta promoción.</string>
+    <string name="batch_error_default">Disculpa, parece ser que hay un problema con esta promoción. Intenta luego de nuevo.</string>
+</resources>

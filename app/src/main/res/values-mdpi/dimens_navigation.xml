@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="navigation_menu_bubble_large">12dp</dimen>
+    <dimen name="navigation_menu_bubble_small">8dp</dimen>
+
+    <dimen name="navigation_trigger_switch_size">@dimen/image_icon_normal</dimen>
+
+    <dimen name="navigation_trigger_size">120dp</dimen>
+    <!-- Double the navigation_trigger_switch_shadow -->
+
+    <dimen name="navigation_trigger_indicator_size">132dp</dimen>
+    <dimen name="navigation_trigger_indicator_diameter">132dp</dimen>
+    <dimen name="navigation_trigger_indicator_textsize">@dimen/text_subhead</dimen>
+
+
+</resources>

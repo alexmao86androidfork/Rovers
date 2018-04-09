@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="billing_error_setup_incomplete">A Configuração de Cobrança não está completa ainda. Por favor tente novamente em alguns segundos.</string>
+    <string name="billing_error_setup_failed">Configuração de billingue falhou. Por favor certifique-se de que está conectado à internet e reinicie o Rovers.</string>
+    <string name="billing_error_sku_extension_not_found">Não foi possível identificar a extensão, tente reiniciar o Rovers. Por favor entre em contato se esse problema persistir.</string>
+    <string name="billing_error_consume_empty">Não foi possível consumir o item vazio.</string>
+    <string name="billing_error_verification_failed_full">Erro ao comprar. A verificação de autenticidade falhou.</string>
+    <string name="billing_thank_you">Obrigado!</string>
+    <string name="billing_coffee_thanks_start">Muito obrigado pelo café!</string>
+    <string name="billing_coffee_thanks_end">Nós prometemos continuar fazendo tudo o que for possível para te a melhor experiência possível com o Rovers.</string>
+    <string name="billing_error_already_owned">Você já possui esse item</string>
+    <string name="billing_error_bad_response">Bad Response</string>
+    <string name="billing_error_send_intent_failed">Send Intent falhou</string>
+    <string name="billing_error_verification_failed">Verificação falhou</string>
+    <string name="billing_error_unknown_purchase_response">Resposta de compra desconhecida</string>
+    <string name="billing_error_missing_token">Token Faltando</string>
+    <string name="billing_error_unknown_error">Erro Desconhecido</string>
+    <string name="billing_error_invalid_consumption">Consumo inválido</string>
+    <string name="billing_purchase_error">Erro na Compra</string>
+    <string name="billing_contact_if_error_continues">Por favor entre em contato conosco se o problema persistir.</string>
+    <string name="billing_error_verify_previous_purchases">Falha ao verificar compras anteriores</string>
+</resources>

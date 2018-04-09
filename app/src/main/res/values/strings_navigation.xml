@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navigation_fragment_title">Rovers</string>
+    <string name="navigation_activated">activated</string>
+    <string name="navigation_disabled">disabled</string>
+
+    <string name="navigation_extensions">extensions</string>
+    <string name="navigation_settings">settings</string>
+    <string name="navigation_actions">actions</string>
+</resources>

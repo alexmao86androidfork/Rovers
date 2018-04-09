@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="billing_error_setup_incomplete">Подготовка счёта еще не выполнена. Пожалуйста, попробуйте через несколько секунд.</string>
+    <string name="billing_error_setup_failed">Подготовка счёта не выполнена. Пожалуйста, убедитесь, что Вы подключены к интернету и перезапустите Rovers.</string>
+    <string name="billing_error_sku_extension_not_found">Невозможно определить расширение, попробуйте перезапустить Rovers. Пожалуйста, свяжитесь с нами, если проблема не исчезнет.</string>
+    <string name="billing_error_consume_empty">Невозможно обработать пустой элемент.</string>
+    <string name="billing_error_verification_failed_full">Ошибка покупки. Идентификация не пройдена.</string>
+    <string name="billing_thank_you">Спасибо!</string>
+    <string name="billing_coffee_thanks_start">Спасибо большое за кофе!</string>
+    <string name="billing_coffee_thanks_end">Обещаем делать все возможное, чтобы дать Rovers наилучшее развитие.</string>
+    <string name="billing_error_already_owned">Элемент уже приобретен</string>
+    <string name="billing_error_bad_response">Неверный ответ</string>
+    <string name="billing_error_send_intent_failed">Отправка не удалась</string>
+    <string name="billing_error_verification_failed">Верификация не удалась</string>
+    <string name="billing_error_unknown_purchase_response">Неизветстный ответ по покупке</string>
+    <string name="billing_error_missing_token">Нет обозначения</string>
+    <string name="billing_error_unknown_error">Неизвестная ошибка</string>
+    <string name="billing_error_invalid_consumption">Неверные данные</string>
+    <string name="billing_purchase_error">Ошибка покупки</string>
+    <string name="billing_contact_if_error_continues">Пожалуйста, свяжитесь с нами, если проблема не исчезнет.</string>
+    <string name="billing_error_verify_previous_purchases">Не удалось проверить предыдущие покупки</string>
+</resources>

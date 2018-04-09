@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walkthrough_activity_title">Инструкция Rovers</string>
+    <string name="walkthrough_skip">пропустить</string>
+    <string name="walkthrough_thats_it">Вот оно</string>
+    <string name="walkthrough_ready">Вы готовы к Rover!</string>
+    <string name="walkthrough_step1_title">"Это кнопка Rovers "</string>
+    <string name="walkthrough_step1_desc">Нажатие на неё запустит плавающий лончер</string>
+    <string name="walkthrough_step2_title">4 типа Rovers</string>
+    <string name="walkthrough_step2_desc">Можно добавить приложения, ярлыки, папки и действия</string>
+    <string name="walkthrough_step3_title">Удерживайте нажатие для изменения</string>
+    <string name="walkthrough_step3_desc">Запустите режим редактирования, удерживая нажатие на Rover</string>
+    <string name="walkthrough_step4_title">Удалить и изменить порядок</string>
+    <string name="walkthrough_step4_desc">В режиме редактирования удаляйте сдвигом, изменяйте порядок удержанием нажатия</string>
+</resources>

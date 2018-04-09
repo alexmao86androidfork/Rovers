@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="96dp"
+        android:layout_margin="@dimen/gap_normal"
+        android:layout_weight="1">
+
+        <!--<com.schiztech.rovers.app.ui.CircleButton-->
+            <!--android:id="@+id/roversize_originalSize"-->
+            <!--android:layout_width="@dimen/rovers_icon_size"-->
+            <!--android:layout_height="@dimen/rovers_icon_size"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:src="@drawable/ri_apps_android"-->
+            <!--app:circle_color="@color/md_black_89"-->
+            <!--app:shadow_color="@color/md_black_89"-->
+
+            <!--/>-->
+
+        <com.schiztech.rovers.app.ui.CircleButton
+            android:id="@+id/roversize_newSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ri_apps_android"
+            app:circle_color="@color/md_light_blue_A400"
+            app:shadow_color="@color/md_black_89" />
+
+        <ImageView
+            android:layout_width="@dimen/rovers_icon_size"
+            android:layout_height="@dimen/rovers_icon_size"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_rover_empty"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@android:id/text1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:textSize="@dimen/text_headline"
+        />
+
+</LinearLayout>

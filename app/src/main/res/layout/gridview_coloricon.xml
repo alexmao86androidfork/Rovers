@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+<com.tonicartos.widget.stickygridheaders.StickyGridHeadersGridView
+    android:id="@+id/coloricon_grid"
+    android:paddingRight="@dimen/content_offset_normal"
+    android:paddingLeft="@dimen/content_offset_normal"
+    android:numColumns="auto_fit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnWidth="@dimen/color_grid_item_size"
+     />
+
+    <com.schiztech.rovers.app.ui.LockedContentLayout
+        android:id="@+id/addRover_lockedContentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</FrameLayout>

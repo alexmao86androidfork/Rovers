@@ -1,0 +1,77 @@
+<com.schiztech.rovers.app.ui.reveallayout.RevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reveal_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/md_grey_200">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/layout_contentfragment_toolbar"/>
+
+            <!-- Batch Code -->
+            <RelativeLayout
+                android:id="@+id/extensions_promotionLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/coupon_code_panel_height"
+                android:orientation="horizontal"
+                android:background="@color/md_grey_300"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                >
+
+                <ImageView
+                    android:id="@+id/extensions_promotionBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_extensions_promotion"
+                    android:layout_alignParentRight="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:padding="@dimen/coupon_code_image_padding"
+                    />
+
+                <TextView
+                    android:id="@+id/extensions_promotionLabel"
+                    style="@style/AppTheme.TextAppearance.Subhead"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/extensions_promotionBtn"
+                    android:textColor="@color/md_black_89"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/extensions_have_promotion"
+
+                    android:textAllCaps="true"/>
+
+                <EditText
+                    android:id="@+id/extensions_promotionEditText"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/extensions_promotionBtn"
+                    android:layout_centerVertical="true"
+                    android:hint="Enter coupon code"
+                    android:textCursorDrawable="@drawable/thumb_edittext_coupon"
+                    android:textColor="@color/md_pink_500"
+                    />
+
+            </RelativeLayout>
+
+
+
+            <!-- Actions List -->
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/extensions_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+
+    </FrameLayout>
+</com.schiztech.rovers.app.ui.reveallayout.RevealLayout>

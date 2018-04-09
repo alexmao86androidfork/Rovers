@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="divider_height">1dp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+     https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">304dp</dimen>
+    <dimen name="navigation_drawer_header_height">171dp</dimen>
+
+    <dimen name="double_actionbar">96dp</dimen>
+
+
+
+    <!-- Text fields -->
+    <dimen name="text_display_4">112sp</dimen>
+    <dimen name="text_display_3">56sp</dimen>
+    <dimen name="text_display_2">45sp</dimen>
+    <dimen name="text_display_1">34sp</dimen>
+    <dimen name="text_headline">24sp</dimen>
+    <dimen name="text_title">20sp</dimen>
+    <dimen name="text_description">18sp</dimen>
+    <dimen name="text_subhead">16sp</dimen>
+    <dimen name="text_body_2">14sp</dimen>
+    <dimen name="text_body_1">14sp</dimen>
+    <dimen name="text_caption">12sp</dimen>
+    <dimen name="text_button">14sp</dimen>
+
+
+    <!-- Main Application -->
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="drawer_elevation">8dp</dimen>
+
+
+    <!-- Color Preference -->
+    <dimen name="color_preference_dialog_padding">16dp</dimen>
+    <dimen name="color_preference_dialog_min_height">144dp</dimen>
+
+
+    <!--Button-->
+    <dimen name="button_inset_vertical_material">6dp</dimen>
+    <dimen name="button_inset_horizontal_material">@dimen/control_inset_material</dimen>
+    <dimen name="button_padding_vertical_material">@dimen/control_padding_material</dimen>
+    <dimen name="button_padding_horizontal_material">8dp</dimen>
+    <!-- Default insets (outer padding) around controls -->
+    <dimen name="control_inset_material">4dp</dimen>
+    <!-- Default inner padding within controls -->
+    <dimen name="control_padding_material">4dp</dimen>
+    <!-- Default rounded corner for controls -->
+    <dimen name="control_corner_material">2dp</dimen>
+
+</resources>

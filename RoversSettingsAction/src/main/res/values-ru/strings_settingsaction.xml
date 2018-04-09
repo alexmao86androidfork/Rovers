@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Действие настроек Rovers</string>
+    <string name="hello_world">Привет, мир!</string>
+    <string name="action_settings">Настройки</string>
+    <string name="roveraction_systemtoggles_label">Переключатели настроек</string>
+    <string name="roveraction_systemtoggles_desc">Быстрый доступ к системным переключателям Wi-Fi, Bluetooth, уровень яркости и др.</string>
+    <string name="title_activity_toggle">Переключатель</string>
+    <string name="title_activity_brightness">Яркость</string>
+    <string name="roveraction_wifi_label">Wi-Fi</string>
+    <string name="roveraction_bluetooth_label">Bluetooth</string>
+    <string name="roveraction_rotation_label">Автоповорот</string>
+    <string name="roveraction_brightness_label">Яркость</string>
+    <string name="roveraction_ringermode_label">Режим звонка</string>
+</resources>

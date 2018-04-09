@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="drawer_inset_foreground">#80424242</color>
+
+    <color name="color_primary">@color/md_white_1000</color>
+    <color name="color_primary_dark">@color/md_blue_grey_300</color>
+
+    <color name="color_primary_navigation_fragment">@color/color_primary</color>
+    <color name="color_primary_dark_navigation_fragment">@color/color_primary_dark</color>
+
+    <color name="color_primary_settings_fragment">@color/md_orange_500</color>
+    <color name="color_primary_dark_settings_fragment">@color/md_orange_700</color>
+
+    <color name="color_primary_actions_fragment">@color/md_green_400</color>
+    <color name="color_primary_dark_actions_fragment">@color/md_green_600</color>
+
+    <color name="color_primary_extensions_fragment">@color/md_indigo_200</color>
+    <color name="color_primary_dark_extensions_fragment">@color/md_indigo_400</color>
+
+    <color name="color_primary_about_fragment">@color/md_blue_200</color>
+    <color name="color_primary_dark_about_fragment">@color/md_blue_400</color>
+
+
+    <color name="text_color_primary">@color/md_black_de</color>
+    <color name="text_color_primary_disabled">@color/md_black_89</color>
+
+    <color name="text_color_secondary">@color/md_black_89</color>
+    <color name="text_color_secondary_disabled">@color/md_red_300</color>
+
+
+    <!-- Dialog Colors -->
+    <color name="change_iconcolor_text_pressed">@color/md_light_blue_A700</color>
+    <color name="change_iconcolor_text">@color/md_blue_grey_800</color>
+    <color name="dialog_background">@color/md_grey_200</color>
+    <color name="dialog_background_de">#deeeeeee</color>
+
+    <!-- Text fields -->
+    <color name="text_display_4">@color/md_black_89</color>
+    <color name="text_display_3">@color/md_black_89</color>
+    <color name="text_display_2">@color/md_black_89</color>
+    <color name="text_display_1">@color/md_black_89</color>
+    <color name="text_headline">@color/md_black_de</color>
+    <color name="text_title">@color/md_black_de</color>
+    <color name="text_description">@color/md_black_89</color>
+    <color name="text_subhead">@color/md_black_de</color>
+    <color name="text_body_2">@color/md_black_de</color>
+    <color name="text_body_1">@color/md_black_de</color>
+    <color name="text_caption">@color/md_black_89</color>
+    <color name="text_button">@color/md_black_de</color>
+
+    <!-- Rover menu -->
+    <color name="rovermenu_settings">@color/md_orange_700</color>
+    <color name="rovermenu_settings_text">@color/md_orange_700</color>
+    <color name="rovermenu_actions">@color/md_green_A700</color>
+    <color name="rovermenu_actions_text">@color/md_green_500</color>
+
+
+    <!-- Navigation Fragment -->
+    <color name="navigation_fragment_indicator_on">@color/md_light_blue_A400</color>
+    <color name="navigation_fragment_indicator_off">@color/md_black_89</color>
+
+    <!-- Actions Fragment -->
+    <color name="actions_fragment_header_border">@color/md_green_400</color>
+    <color name="actions_fragment_header_background">@color/md_green_100</color>
+    <color name="actions_fragment_header_title">@color/md_green_700</color>
+    <color name="actions_fragment_header_subtitle">@color/md_green_600</color>
+
+
+    <!-- Extensions Fragment -->
+    <color name="extensions_fragment_header_border">@color/md_indigo_A100</color>
+    <color name="extensions_fragment_header_background">@color/md_indigo_100</color>
+    <color name="extensions_fragment_header_title">@color/md_indigo_500</color>
+    <color name="extensions_fragment_header_subtitle">@color/md_indigo_400</color>
+
+    <!-- Settings Fragment -->
+    <color name="settings_fragment_header_border">@color/md_orange_A200</color>
+    <color name="settings_fragment_header_background">@color/md_orange_100</color>
+    <color name="settings_fragment_header_title">@color/md_orange_600</color>
+    <color name="settings_fragment_header_subtitle">@color/md_orange_500</color>
+
+
+
+    <!-- Buttons -->
+    <color name="button_normal_background">@color/md_blue_A200</color>
+    <color name="button_normal_background_highlight">@color/md_blue_A400</color>
+
+    <color name="button_flat_background">@android:color/transparent</color>
+    <color name="button_flat_background_highlighted">@color/md_grey_400</color>
+    <color name="button_flat_text">@color/md_blue_A200</color>
+
+    <color name="button_buy_background">@color/md_pink_A400</color>
+    <color name="button_buy_background_highlighted">@color/md_pink_A700</color>
+
+    <color name="button_settings_background">@color/md_orange_A700</color>
+    <color name="button_settings_background_highlighted">@color/md_orange_900</color>
+
+    <color name="button_install_background">@color/md_green_A700</color>
+    <color name="button_install_background_highlighted">@color/md_green_600</color>
+
+    <color name="button_walkthrough_background">@color/md_deep_orange_A200</color>
+    <color name="button_walkthrough_highlighted">@color/md_deep_orange_A400</color>
+
+
+
+</resources>

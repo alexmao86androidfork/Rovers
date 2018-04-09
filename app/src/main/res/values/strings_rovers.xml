@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rovers_launch_error_lost">This Rover seems to be lost. Try to remove it and add it again.</string>
+    <string name="rovers_launch_error_default">This Rover has a problem. Try to remove it and add it again.</string>
+    <string name="rovers_hide">Hide</string>
+
+    <string name="rovers_hidden_alert_title">Rovers is still here</string>
+    <string name="rovers_hidden_alert_desc">You can show Rovers again on the notifications panel.</string>
+    <string name="rovers_hidden_alert_button">got it</string>
+</resources>

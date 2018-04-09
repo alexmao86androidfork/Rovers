@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_fragment_title">Configurações dos Rovers</string>
+    <string name="settings_header_title">Configurações</string>
+    <string name="settings_header_desc">Modifique e adapte as configurações para personalizar sua experiência com Rovers</string>
+    <string name="settings_pref_header_rover_items">Itens Rover</string>
+    <string name="settings_pref_header_corner_host">Menu de Canto</string>
+    <string name="settings_pref_header_floating_trigger">Gatilho Flutuante</string>
+    <string name="settings_pref_header_misc">Variados</string>
+    <string name="settings_pref_def_app_color_title">Cor Padrão de Aplicativo</string>
+    <string name="settings_pref_def_app_color_desc">A cor padrão de um Rover de Aplicativo</string>
+    <string name="settings_pref_def_shortcut_color_title">Cor Padrão de Atalho</string>
+    <string name="settings_pref_def_shortcut_color_desc">A cor padrão de um Rover de Atalho</string>
+    <string name="settings_pref_def_folder_color_title">Cor Padrão de Pasta</string>
+    <string name="settings_pref_def_folder_color_desc">A cor padrão de uma pasta do Rover</string>
+    <string name="settings_pref_sticky_corner_title">Canto grudento</string>
+    <string name="settings_pref_sticky_corner_desc">Canto padrão no qual o Menu vai abrir</string>
+    <string name="settings_pref_orientation_title">Orientação</string>
+    <string name="settings_pref_orientation_desc">A orientação do Menu</string>
+    <string name="settings_pref_add_on_edit_only_title">Adicionar Rover apenas em Modo de Edição</string>
+    <string name="settings_pref_add_on_edit_only_desc_on">Mostrando Botão de Adicionar apenas no Modo de Edição</string>
+    <string name="settings_pref_add_on_edit_only_desc_off">Botão de Adicionar está sempre visível</string>
+    <string name="settings_pref_trigger_bg_color_title">Cor de Fundo</string>
+    <string name="settings_pref_trigger_bg_color_desc">A cor de fundo do gatilho flutuante</string>
+    <string name="settings_pref_trigger_icon_color_title">Cor de Ícone</string>
+    <string name="settings_pref_trigger_icon_color_desc">A cor do ícone do gatilho flutuante</string>
+    <string name="settings_pref_trigger_rest_alpha_title">Alpha de Descansando</string>
+    <string name="settings_pref_trigger_rest_alpha_desc">O nível de transparência do gatilho quando descansando.</string>
+    <string name="settings_pref_trigger_rest_offset_title">Recuo de Descansando</string>
+    <string name="settings_pref_trigger_rest_offset_desc">O nível de recuo do gatilho quando descansando</string>
+    <string name="settings_pref_mute_click_title">Tirar Som ao tocar um Rover</string>
+    <string name="settings_pref_mute_click_desc_on">Som ao tocar um Rover está mudo</string>
+    <string name="settings_pref_mute_click_desc_off">Som ao tocar um Rover está ativo</string>
+    <string name="settings_pref_anon_data_title">Enviar Dados Anônimos</string>
+    <string name="settings_pref_anon_data_desc_on">Ajude-nos a melhorar enviando dados completamente anônimos</string>
+    <string name="settings_pref_anon_data_desc_off">Não enviar dados anônimos</string>
+    <string name="settings_pref_crash_reports_title">Enviar Crash Reports</string>
+    <string name="settings_pref_crash_reports_desc_on">Automaticamente enviando Crash Reports anônimos</string>
+    <string name="settings_pref_crash_reports_desc_off">Não enviar crash reports</string>
+</resources>

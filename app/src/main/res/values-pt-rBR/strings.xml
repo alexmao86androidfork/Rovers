@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rovers</string>
+    <!-- ACRA -->
+    <string name="acra_toast_crash">Enviando relatório de erro...</string>
+    <!-- Errors -->
+    <string name="error_default">Nós achamos um problema...</string>
+    <string name="error_browse">Não foi possível encontrar um aplicativo navegador.</string>
+    <!-- Colors -->
+    <string name="colors_material">Cores Material</string>
+    <string name="colors_basic">Cores Básicas</string>
+    <string name="colors_default">Cores Padrão</string>
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Abrir gaveta de navegação</string>
+    <string name="navigation_drawer_close">Fechar gaveta de navegação</string>
+    <!-- Activity -->
+    <string name="title_activity_rovers">Rovers</string>
+    <string name="title_activity_sync_rover">ToggleActivity</string>
+    <!-- Dialog -->
+    <string name="dialog_dismiss">Descartar</string>
+    <string name="list_empty">Nada para mostrar...</string>
+    <!-- Notification -->
+    <string name="notification_title">Rovers está funcionando</string>
+    <string name="notification_show_trigger">Toque para mostrar o gatilho</string>
+    <string name="notification_hide_trigger">Toque para esconder o gatilho</string>
+    <string name="notification_settings">Configurações</string>
+</resources>

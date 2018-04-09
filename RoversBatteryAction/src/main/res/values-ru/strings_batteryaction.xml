@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Действие батареи Rovers</string>
+    <string name="roveraction_battery_label">Подробности батареи</string>
+    <string name="roveraction_battery_desc">Показывает текущий уровень батареи устройства. Также действует в качестве ярлыка для экрана настроек \"Подробности батареи\".</string>
+</resources>

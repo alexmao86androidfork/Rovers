@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="extensions_fragment_title">Rovers Extensions</string>
+
+    <string name="extensions_already_got">You have already got this extension</string>
+    <string name="extensions_congratulations">Congratulations!</string>
+    <string name="extensions_successfully_got">You got the extension</string>
+
+    <string name="extensions_more_colors_title">More Colors</string>
+    <string name="extensions_more_colors_desc">Customize each Rover with a different color of their own. Make your experience extra colorful!</string>
+
+    <string name="extensions_more_rovers_title">More Rovers</string>
+    <string name="extensions_more_rovers_desc">Add as many Rovers as you want, with no limitations, and make your Rovers experience wider than ever!</string>
+
+    <string name="extensions_more_settings_title">More Settings</string>
+    <string name="extensions_more_settings_desc">Get the Rover trigger settings, and make your Rovers experience unique!</string>
+
+    <string name="extensions_complete_package_title">Complete Package</string>
+    <string name="extensions_complete_package_desc">This includes it all, as in all current extensions and the future ones that will come.</string>
+
+    <string name="extensions_locked_more_colors">Sorry, this option is available only with the "More Colors" extension.</string>
+    <string name="extensions_locked_more_rovers">You\'ve reached the maximum amount of Rovers. Add more by getting "More Rovers" Extension or remove existing.</string>
+    <string name="extensions_locked_more_settings">Sorry, this option is available only with the "More Settings" extension.</string>
+
+    <string name="extensions_have_promotion">I have a promotion code</string>
+
+    <string name="extensions_header_title">Extensions</string>
+    <string name="extensions_header_desc">Get more features which will make the Rovers experience even better!</string>
+
+    <string name="extensions_get_extensions">get extensions</string>
+
+    <string name="extensions_buy_now">buy now</string>
+    <string name="extensions_got_it">got it!</string>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rovers Battery Action</string>
+    <string name="roveraction_battery_label">Battery Details</string>
+    <string name="roveraction_battery_desc">Shows the current battery level of your device. Also acts as a shortcut for the "Battery Details" settings screen.</string>
+
+</resources>

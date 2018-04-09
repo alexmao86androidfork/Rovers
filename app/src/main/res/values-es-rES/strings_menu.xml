@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_about">About</string>
+    <string name="menu_contact">Contact Us</string>
+    <string name="menu_translate">Translate</string>
+    <string name="menu_tutorial">Walkthrough</string>
+    <string name="menu_api">Developers Api</string>
+
+</resources>

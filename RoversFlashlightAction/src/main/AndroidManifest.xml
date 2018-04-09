@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.schiztech.roverflashlightaction" >
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <service
+            android:name="com.schiztech.rovers.actions.flashlight.FlashlightService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <activity
+            android:exported="true"
+            android:name="com.schiztech.rovers.actions.flashlight.ToggleFlashlightActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/title_activity_toggle_flashlight"
+            android:theme="@android:style/Theme.NoDisplay" >
+        </activity>
+        <activity
+            android:exported="true"
+            android:name="com.schiztech.rovers.actions.flashlight.CreateFlashlightActionActivity"
+            android:icon="@drawable/ic_flashlight_orange"
+            android:label="@string/roveraction_flashlight_label" >
+            <intent-filter>
+                <action android:name="com.schiztech.rovers.action" />
+            </intent-filter>
+            <!--<meta-data android:value="com.schiztech.rovers.actions.flashlight.ToggleFlashlightActivity" android:name="settings_activity" />-->
+            <meta-data
+                android:name="description"
+                android:value="@string/roveraction_flashlight_desc" />
+
+        </activity>
+    </application>
+
+</manifest>

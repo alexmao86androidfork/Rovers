@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.schiztech.rovers.app" >
+
+    <permission
+        android:name="com.schiztech.rovers.app.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.schiztech.rovers.app.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".application.RoversApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+
+            android:name=".activities.MainActivity"
+            android:clearTaskOnLaunch="true"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="batch2508228282" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity> <!-- Main Activity -->
+
+        <activity
+            android:name=".activities.SyncRoverActivity"
+            android:autoRemoveFromRecents="true"
+            android:excludeFromRecents="true"
+            android:label="@string/title_activity_sync_rover"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.NoDisplay" >
+        </activity> <!-- Sync Rover -->
+
+        <activity
+            android:name=".activities.AddRoverActivity"
+            android:clearTaskOnLaunch="true"
+            android:excludeFromRecents="true"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/addrover_title"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.Dialog.MinWidth" >
+            <intent-filter>
+                <action android:name="com.schiztech.rovers.roverhost.expanded" />
+            </intent-filter>
+        </activity> <!-- Add Rover -->
+
+        <activity
+            android:name=".activities.RoverlyticsResultActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/title_activity_roverlytics_result"
+            android:process=":rovers"
+            android:theme="@android:style/Theme.NoDisplay" >
+        </activity> <!-- Roverlytics Result -->
+
+
+        <!-- Windows -->
+        <service
+            android:name=".windows.FloatingWindowsManager"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:process=":rovers" /> <!-- Floating Windows -->
+
+
+        <!-- Action Creators -->
+        <activity
+            android:name=".activities.roversactions.creators.CreateHomeActionActivity"
+            android:excludeFromRecents="true"
+            android:icon="@drawable/ic_roveraction_home"
+            android:label="@string/roveraction_home_label"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="com.schiztech.rovers.action" />
+
+                <category android:name="com.schiztech.rovers.category.internal" />
+            </intent-filter>
+
+            <meta-data
+                android:name="description"
+                android:value="@string/roveraction_home_desc" />
+        </activity> <!-- Home -->
+        <activity
+            android:name=".activities.roversactions.creators.CreateAppDrawerActionActivity"
+            android:excludeFromRecents="true"
+            android:icon="@drawable/ic_roveraction_drawer"
+            android:label="@string/roveraction_appdrawer_label"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="com.schiztech.rovers.action" />
+
+                <category android:name="com.schiztech.rovers.category.internal" />
+            </intent-filter>
+
+            <!-- <meta-data -->
+            <!-- android:name="settings_activity" -->
+            <!-- android:value="com.schiztech.rovers.app.activities.AddRoverActivity" /> -->
+            <meta-data
+                android:name="description"
+                android:value="@string/roveraction_appdrawer_desc" />
+        </activity> <!-- App Drawer -->
+        <activity
+            android:name=".activities.roversactions.creators.CreateRecentAppsActionActivity"
+            android:excludeFromRecents="true"
+            android:icon="@drawable/ic_roveraction_recents"
+            android:label="@string/roveraction_recentapps_label"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="com.schiztech.rovers.action" />
+
+                <category android:name="com.schiztech.rovers.category.internal" />
+            </intent-filter>
+
+            <meta-data
+                android:name="description"
+                android:value="@string/roveraction_recentapps_desc" />
+            <meta-data
+                android:name="max_sdk"
+                android:value="19" />
+        </activity> <!-- Recent Apps -->
+        <activity
+            android:name=".activities.roversactions.creators.CreateSearchActionActivity"
+            android:excludeFromRecents="true"
+            android:icon="@drawable/ic_roveraction_search"
+            android:label="@string/roveraction_search_label"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="com.schiztech.rovers.action" />
+
+                <category android:name="com.schiztech.rovers.category.internal" />
+            </intent-filter>
+
+            <meta-data
+                android:name="description"
+                android:value="@string/roveraction_search_desc" />
+        </activity> <!-- Search -->
+        <activity
+            android:name=".activities.roversactions.creators.CreateClearRamActionActivity"
+            android:excludeFromRecents="true"
+            android:icon="@drawable/ic_roveraction_clearram"
+            android:label="@string/roveraction_clearram_label"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="com.schiztech.rovers.action" />
+
+                <category android:name="com.schiztech.rovers.category.internal" />
+            </intent-filter>
+
+            <meta-data
+                android:name="description"
+                android:value="@string/roveraction_clearram_desc" />
+        </activity> <!-- Clear Ram -->
+        <activity
+            android:name=".activities.roversactions.creators.CreateLastAppActionActivity"
+            android:excludeFromRecents="true"
+            android:icon="@drawable/ic_roveraction_lastapp"
+            android:label="@string/roveraction_lastapp_label"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="com.schiztech.rovers.action" />
+
+                <category android:name="com.schiztech.rovers.category.internal" />
+            </intent-filter>
+
+            <meta-data
+                android:name="description"
+                android:value="@string/roveraction_lastapp_desc" />
+            <meta-data
+                android:name="max_sdk"
+                android:value="19" />
+        </activity> <!-- Last App -->
+        <activity
+            android:name=".activities.roversactions.creators.CreateVoiceCommandAction"
+            android:excludeFromRecents="true"
+            android:icon="@drawable/ic_roveraction_voice"
+            android:label="@string/roveraction_voicecommands_label"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="com.schiztech.rovers.action" />
+
+                <category android:name="com.schiztech.rovers.category.internal" />
+            </intent-filter>
+
+            <meta-data
+                android:name="description"
+                android:value="@string/roveraction_voicecommands_desc" />
+        </activity> <!-- Voice Commands -->
+
+
+        <!-- Rover Actions -->
+        <activity
+            android:name=".activities.roversactions.AppDrawerActionActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="@string/roveraction_appdrawer_label"
+            android:noHistory="true"
+            android:process=":roversactions"
+            android:theme="@style/Theme.Rovers.Transparent" >
+            <intent-filter>
+                <action android:name="com.schiztech.rovers.roverhost.expanded" />
+            </intent-filter>
+        </activity> <!-- App Drawer -->
+        <activity
+            android:name=".activities.roversactions.RecentAppsActionActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="@string/roveraction_recentapps_label"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:process=":roversactions"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar.MinWidth" >
+        </activity> <!-- Recent Apps -->
+        <activity
+            android:name=".activities.roversactions.ClearRamActionActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="@string/roveraction_clearram_label"
+            android:noHistory="true"
+            android:process=":roversactions"
+            android:theme="@android:style/Theme.NoDisplay" >
+        </activity> <!-- Clear Ram -->
+        <activity
+            android:name=".activities.roversactions.LastAppActionActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="@string/roveraction_lastapp_label"
+            android:noHistory="true"
+            android:process=":roversactions"
+            android:theme="@android:style/Theme.NoDisplay" >
+        </activity> <!-- Last App -->
+
+
+        <!-- Boot Receiver -->
+        <receiver
+            android:name=".receivers.StartupBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Rovers Changed Receiver -->
+
+
+        <!-- Batch -->
+        <service android:name="com.batch.android.BatchPushService" />
+
+        <receiver
+            android:name="com.batch.android.BatchPushReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.schiztech.rovers.app" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".activities.WalkthroughActivity"
+            android:label="@string/walkthrough_activity_title"
+            android:theme="@style/AppTheme.Tutorial" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- Google Analytics -->
+        <meta-data
+            android:name="com.google.android.gms.analytics.globalConfigResource"
+            android:resource="@xml/analytics" />
+
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="your_fabric_api_key" />
+
+    </application>
+
+</manifest>

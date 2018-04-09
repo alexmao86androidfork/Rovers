@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rovers Flashlight Action</string>
+    <string name="title_activity_toggle_flashlight">Toggle Flashlight</string>
+    <string name="roveraction_flashlight_label">Flashlight</string>
+    <string name="roveraction_flashlight_desc">Quick flashlight toggle. Light up any dark space instantly!</string>
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="roverlytics_fragment_title">Roverlytics</string>
+
+    <!-- First part of Roverlytics -->
+    <string name="roverlytics_title_rover">rover</string>
+    <!-- Second part of Roverlytics -->
+    <string name="roverlytics_title_lytics">lytics</string>
+
+    <string name="roverlytics_days">Days</string>
+    <string name="roverlytics_hours">Hrs</string>
+    <!-- Short for minutes -->
+    <string name="roverlytics_minutes">m</string>
+    <!-- Short for seconds -->
+    <string name="roverlytics_seconds">s</string>
+
+    <!-- Short for kilometers -->
+    <string name="roverlytics_kilometers">Km</string>
+    <!-- Short for meters -->
+    <string name="roverlytics_meters">m</string>
+    <!-- Short for centimeters -->
+    <string name="roverlytics_centimeters">cm</string>
+
+    <!-- Short for miles -->
+    <string name="roverlytics_miles">mi</string>
+    <!-- Short for yards -->
+    <string name="roverlytics_yards">yd</string>
+    <!-- Short for feet -->
+    <string name="roverlytics_feet">ft</string>
+    <!-- Short for inches -->
+    <string name="roverlytics_inches">in</string>
+
+    <string name="roverlytics_share_title">Have you met Rovers?</string>
+    <string name="roverlytics_share_desc">I\'m using Rovers, and it\'s awesome!</string>
+
+
+    <string name="roverlytics_share_launches_title">Rovers is my android\'s companion!</string>
+    <!-- Example: I have launched rovers for 300 times. -->
+    <string name="roverlytics_share_launches_desc_1">I have launched rovers for</string>
+    <string name="roverlytics_share_launches_desc_2">times.</string>
+
+    <string name="roverlytics_share_time_title">The quickest Rover in town!</string>
+    <!-- Example: I'm launching rovers for an average of 1.5secs at a time. -->
+    <string name="roverlytics_share_time_desc_1">I\'m launching Rovers for an average of</string>
+    <string name="roverlytics_share_time_desc_2">at a time.</string>
+
+
+    <string name="roverlytics_share_distance_title">Rovers and I, around the world</string>
+    <!-- Example: Rovers has traveled a distance of 99 miles on my screen. -->
+    <string name="roverlytics_share_distance_desc_1">Rovers has traveled a distance of</string>
+    <string name="roverlytics_share_distance_desc_2">on my screen.</string>
+
+    <string name="roverlytics_share_beat_that">Can you beat that?</string>
+    <string name="roverlytics_share_get_it">Get it on Google Play</string>
+
+
+    <string name="roverlytics_header_launches">times launched</string>
+    <string name="roverlytics_header_time">avg time per launch</string>
+    <string name="roverlytics_header_distance">distance travelled</string>
+
+    <string name="roverlytics_love_rovers">♥ Rovers? Spread the word!</string>
+    <string name="roverlytics_share">share</string>
+    <string name="roverlytics_rate">rate</string>
+
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:id="@+id/rovers_host_parent"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:orientation="horizontal"--><!-->--><!--<View--><!--android:layout_alignParentRight="true"--><!--android:id="@+id/rovers_host_marginView"--><!--android:layout_width="100dp"--><!--android:layout_height="100dp"--><!--android:background="@android:color/black"/>-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/roversHost_parentLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:orientation="horizontal">
+
+    <HorizontalScrollView
+        android:id="@+id/roversHost_scrollLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:scrollbars="none"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:id="@+id/roversHost_scrollContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:clipChildren="false"
+            android:animateLayoutChanges="false">
+
+        <LinearLayout
+            android:id="@+id/roversHost_itemsLayout"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:animateLayoutChanges="false">
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+</LinearLayout><!--</RelativeLayout>-->
+

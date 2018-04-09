@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="translate_title">¡Necesitamos tu ayuda!</string>
+    <string name="translate_ill_help">¡Ayudaré!</string>
+    <string name="translate_no_thanks">No, gracias</string>
+    <string name="translate_desc_start">Ayúdanos a traducir Rovers a tu lenguaje usando una gran herramienta de traducción.</string>
+    <string name="translate_desc_end">Te sugerimos que traduzcas en tu computadora personal para un máximo confort.</string>
+</resources>

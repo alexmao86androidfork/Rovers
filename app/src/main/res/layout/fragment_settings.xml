@@ -1,0 +1,29 @@
+<com.schiztech.rovers.app.ui.reveallayout.RevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reveal_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/md_grey_200">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/layout_contentfragment_toolbar" />
+
+            <FrameLayout
+                android:id="@+id/settings_prefsContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.schiztech.rovers.app.activities.MainActivity"
+                tools:ignore="MergeRootFrame" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+</com.schiztech.rovers.app.ui.reveallayout.RevealLayout>

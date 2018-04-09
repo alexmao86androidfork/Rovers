@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="type_grid_columns">2</integer>
+
+    <integer name="apprater_days_until_prompt">4</integer>
+    <integer name="apprater_launches_until_prompt">12</integer>
+    <integer name="apprater_days_until_remind">4</integer>
+    <integer name="apprater_launches_until_remind">12</integer>
+</resources>

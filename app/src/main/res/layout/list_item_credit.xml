@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/credit_item_margin"
+    app:cardElevation="@dimen/credit_item_elevation"
+    app:cardBackgroundColor="@color/md_white_1000"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/content_offset_normal"
+            android:id="@+id/credit_layout"
+            android:background="?android:attr/selectableItemBackground"
+            >
+
+            <TextView
+                style="@style/AppTheme.TextAppearance.Title"
+                android:id="@+id/credit_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:textColor="@color/md_black_b2"
+                android:focusableInTouchMode="true"
+                android:marqueeRepeatLimit="marquee_forever" />
+
+            <TextView
+                style="@style/AppTheme.TextAppearance.Subhead"
+                android:id="@+id/credit_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_below="@id/credit_title"
+                android:singleLine="true" />
+
+
+            <TextView
+                style="@style/AppTheme.TextAppearance.Description"
+                android:id="@+id/credit_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|left|center_vertical"
+                android:ellipsize="end"
+                android:layout_below="@id/credit_author"
+                android:paddingBottom="@dimen/content_offset_internal"
+                android:paddingTop="@dimen/content_offset_internal"/>
+
+        </RelativeLayout>
+
+        <View
+            style="@style/AppTheme.Divider"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:id="@+id/credit_licenseLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/about_panel_height"
+            android:background="?android:attr/selectableItemBackground">
+
+            <TextView
+                style="@style/AppTheme.TextAppearance.Subhead"
+                android:id="@+id/credit_licenseText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginStart="@dimen/content_offset_normal"
+                android:layout_marginLeft="@dimen/content_offset_normal"
+                android:textColor="@color/md_blue_500" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="actions_fragment_title">Действия Rovers</string>
+    <string name="actions_settings_launch_error">Невозможно запустить настройки действия. Возможно, неверная ссылка.</string>
+    <string name="actions_api_title">API действий Rover</string>
+    <string name="actions_api_desc_opening">Разработчик Андроид? Создайте свое действие Rover за считанные минуты!</string>
+    <string name="actions_api_desc_middle">Простое api поможет Вам создать действия Rovers и добавить их в существующие приложения, либо создать отдельные действия  Rover.</string>
+    <string name="actions_api_desc_end">Так можем мы на Вас рассчитывать?</string>
+    <string name="actions_api_learn_more">Узнать больше</string>
+    <string name="actions_api_nevermind">Ладно</string>
+    <string name="actions_installed">Установленные действия</string>
+    <string name="actions_suggested">Предлагаемые действия</string>
+    <string name="actions_get_more_play">Получите больше на Google Play</string>
+    <string name="actions_get_more">Получите больше действий</string>
+    <string name="actions_header_title">Действия</string>
+    <string name="actions_header_desc">Специальные ярлыки под одно нажатие,  такие как включение фонарика или вызов домой.</string>
+    <string name="actions_install">установить</string>
+    <string name="actions_app_info">инф. приложения</string>
+    <string name="actions_settings">настройки</string>
+</resources>

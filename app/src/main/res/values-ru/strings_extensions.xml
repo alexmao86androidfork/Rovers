@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="extensions_fragment_title">Расширения Rovers</string>
+    <string name="extensions_already_got">У Вас уже есть это расширение</string>
+    <string name="extensions_congratulations">Поздравления!</string>
+    <string name="extensions_successfully_got">Вы получили расширение</string>
+    <string name="extensions_more_colors_title">Больше цветов</string>
+    <string name="extensions_more_colors_desc">Подберите свой цвет под каждый Rover. Раскрасьте свою работу с ним!</string>
+    <string name="extensions_more_rovers_title">Больше Rovers</string>
+    <string name="extensions_more_rovers_desc">Добавляйте столько Rovers, сколько хотите, используйте на всю катушку!</string>
+    <string name="extensions_more_settings_title">Больше настроек</string>
+    <string name="extensions_more_settings_desc">Получите настройки кнопки Rover и пусть Ваша работа  с Rover будет уникальной!</string>
+    <string name="extensions_complete_package_title">Полный пакет</string>
+    <string name="extensions_complete_package_desc">Это включает все, в текущих расширениях и будущих.</string>
+    <string name="extensions_locked_more_colors">Извините, эта опция доступна только с расширением \"Больше цветов\".</string>
+    <string name="extensions_locked_more_rovers">Вы достиг ли максимального количества Rovers. Добавьте её с помощью расширения \"Больше Rovers\" или удалив существующие.</string>
+    <string name="extensions_locked_more_settings">Извините, эта опция доступна только с расширением \"Больше настроек\".</string>
+    <string name="extensions_have_promotion">У меня есть промо-код</string>
+    <string name="extensions_header_title">Расширения</string>
+    <string name="extensions_header_desc">Получите больше функций, которые улучшат использование Rovers!</string>
+    <string name="extensions_get_extensions">получить расширения</string>
+    <string name="extensions_buy_now">купить сейчас</string>
+    <string name="extensions_got_it">есть!</string>
+</resources>

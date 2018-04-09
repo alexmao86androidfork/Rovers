@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@raw/walkthrough_bg"
+        android:scaleType="fitXY" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/walkthrought_bottom_panel_height"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+        <include layout="@layout/layout_tutorial_step_image" />
+    </FrameLayout>
+
+
+    <View style="@style/AppTheme.Divider.Light"
+        android:layout_marginLeft="@dimen/walkthrought_divider_margin"
+        android:layout_marginRight="@dimen/walkthrought_divider_margin"
+        android:background="@color/md_deep_orange_300"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+    >
+        <!-- Make sure text section not going over (skip, next) bar -->
+
+        <include layout="@layout/layout_tutorial_step_text" />
+    </FrameLayout>
+
+    </LinearLayout>
+</FrameLayout>

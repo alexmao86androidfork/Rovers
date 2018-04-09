@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/panel_height"
+    android:gravity="center_vertical"
+    android:paddingLeft="@dimen/content_offset_normal"
+    android:singleLine="true"
+    android:textAllCaps="true"
+    android:textColor="@color/md_green_500"
+    android:background="@android:color/transparent"
+    android:textSize="@dimen/text_subhead"
+    android:id="@+id/section_text"
+    android:textStyle="bold" />

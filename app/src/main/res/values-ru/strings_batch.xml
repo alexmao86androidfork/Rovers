@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="batch_reward_message_default">Вы получили предложение!</string>
+    <string name="batch_reward_title_default">Поздравления!</string>
+    <string name="batch_restore_found_promotions">Мы нашли некоторые предложения, которые Вам посылали ранее!</string>
+    <string name="batch_checking_promotion_code">Проверка промо-кода</string>
+    <string name="batch_found_promotion_code">Найден промо-код, проверка...</string>
+    <!-- Errors -->
+    <string name="batch_error_network">Мы не смогли проверить промо-код из-за проблем сети. Пожалуйста, проверьте подключение к интернету и попробуйте снова.</string>
+    <string name="batch_error_unknown_code">Извините, похоже, что промо-код недействителен</string>
+    <string name="batch_error_expired_code">Извините, срок этого предложения истек</string>
+    <string name="batch_error_not_started">Извините, это предложение ещё недоступно. Пожалуйста, попытайтесь позже.</string>
+    <string name="batch_error_capped">Извините, у этого предложения был ограниченный лимит. Постарайтесь быть быстрее в следующий раз!</string>
+    <string name="batch_error_already_consumed">Вы уже использовали это предложение.</string>
+    <string name="batch_error_not_targeted">Извините, Вам не направлялось это предложение.</string>
+    <string name="batch_error_default">Извините, похоже, с данным предложением возникают проблемы. Пожалуйста, попробуйте позже.</string>
+</resources>

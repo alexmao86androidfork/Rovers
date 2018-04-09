@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/walkthroughStep_image1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/walkthrough_step_1"/>
+
+        <ImageView
+            android:id="@+id/walkthroughStep_image2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/walkthrough_step_1_lines"
+            android:scaleType="fitXY" />
+
+
+
+    </FrameLayout>
+
+    <!-- layout_marginBottom = 48dp on sw720dp!! -->
+</FrameLayout>

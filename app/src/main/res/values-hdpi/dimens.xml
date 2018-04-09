@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Gaps -->
+    <dimen name="gap_tiny">1dp</dimen>
+    <dimen name="gap_small">2dp</dimen>
+    <dimen name="gap_normal">4dp</dimen>
+    <dimen name="gap_large">10dp</dimen>
+    <dimen name="gap_large_negative">-10dp</dimen>
+    <dimen name="gap_xlarge">12dp</dimen>
+    <dimen name="gap_huge">16dp</dimen>
+</resources>

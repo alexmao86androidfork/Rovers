@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="walkthrought_done_padding">@dimen/gap_xlarge</dimen>
+    <dimen name="walkthrought_done_margin">@dimen/gap_huge</dimen>
+    <dimen name="walkthrought_bottom_panel_height">@dimen/panel_height</dimen>
+    <dimen name="walkthrought_divider_margin">@dimen/gap_huge</dimen>
+
+    <dimen name="walkthrought_header_textsize">@dimen/text_headline</dimen>
+    <dimen name="walkthrought_description_textsize">@dimen/text_title</dimen>
+
+</resources>

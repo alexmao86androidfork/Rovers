@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Rover Actions -->
+    <string name="roveraction_home_label">Домой</string>
+    <string name="roveraction_home_desc">Симулятор кнопки \"Домой\", дающий быстрый доступ к домашнему экрану.</string>
+    <string name="roveraction_appdrawer_label">Меню приложений</string>
+    <string name="roveraction_appdrawer_desc">Полное меню приложений \"на лету\", открывает любое приложение.</string>
+    <string name="roveraction_recentapps_label">Последние приложения</string>
+    <string name="roveraction_recentapps_desc">Переключайтесь между недавно использовавшимися приложениями и улучшайте многозадачность.</string>
+    <string name="roveraction_clearram_label">Очистить оп. память</string>
+    <string name="roveraction_clearram_desc">Делает работу устройства ровной, очищая без пользы потребляемую память.</string>
+    <string name="roveraction_lastapp_label">Последнее приложение</string>
+    <string name="roveraction_lastapp_desc">Переключение между текущим приложением и последним использованным. Мультизадачность в цвете!</string>
+    <string name="roveraction_search_label">Поиск</string>
+    <string name="roveraction_search_desc">Симулятор кнопки \"Поиск\", открывающий приложение поиска по умолчанию.</string>
+    <string name="roveraction_voicecommands_label">Голосовые команды</string>
+    <string name="roveraction_voicecommands_desc">Открывает приложение голосовых команд по умолчанию, если устройство это поддерживает.</string>
+    <!-- Suggested Rover Actions -->
+    <string name="roveraction_suggested_batterylevel_label">Уровень батареи</string>
+    <string name="roveraction_suggested_batterylevel_desc">Уровень батареи Вашего устройства с точностью до 1 %.</string>
+    <string name="roveraction_suggested_directcontact_label">Быстрый контакт</string>
+    <string name="roveraction_suggested_directcontact_desc">Легко общайтесь с друзьями с помощью действий набора/СМС одним нажатием.</string>
+    <string name="roveraction_suggested_flashlight_label">Фонарик</string>
+    <string name="roveraction_suggested_flashlight_desc">Осветите самую тёмную комнату с быстрым фонариком.</string>
+    <string name="roveraction_suggested_settings_label">Переключатели настроек</string>
+    <string name="roveraction_suggested_settings_desc">Быстрый доступ к системным переключателям Wi-Fi, Bluetooth, уровень яркости и др.</string>
+    <!-- Example: Cleared 100MB Ram -->
+    <string name="roveraction_clearram_cleared">Очищено</string>
+    <!-- Example: Cleared 100MB Ram -->
+    <string name="roveraction_clearram_mbram">МБ оп. памяти</string>
+    <string name="roveraction_notsupported">Извините, это действие поддерживается только в Андроид 5.0 и выше.</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--   Text Fields -->
+    <style name="AppTheme.TextAppearance.Display4" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/text_display_4</item>
+        <item name="android:textColor">@color/text_display_4</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Display3" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/text_display_3</item>
+        <item name="android:textColor">@color/text_display_3</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Display2" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/text_display_2</item>
+        <item name="android:textColor">@color/text_display_2</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Display1" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/text_display_1</item>
+        <item name="android:textColor">@color/text_display_1</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Headline" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/text_headline</item>
+        <item name="android:textColor">@color/text_headline</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Subhead" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/text_subhead</item>
+        <item name="android:textColor">@color/text_subhead</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+
+
+    <style name="AppTheme.TextAppearance.Body1" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/text_body_1</item>
+        <item name="android:textColor">@color/text_body_1</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Caption" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/text_caption</item>
+        <item name="android:textColor">@color/text_caption</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.FragmentHeader" parent="AppTheme.TextAppearance.FragmentHeader.Base">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Roverlytics.Header" parent="AppTheme.TextAppearance.Roverlytics.Header.Base">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Roverlytics.Data" parent="AppTheme.TextAppearance.Roverlytics.Data.Base">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rovers Settings Action</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="roveraction_systemtoggles_label">Settings Toggles</string>
+    <string name="roveraction_systemtoggles_desc">Quick access to system toggles like Wi-Fi, Bluetooth, Brightness level and more.</string>
+    <string name="title_activity_toggle">Toggle</string>
+    <string name="title_activity_brightness">Brightness</string>
+
+    <string name="roveraction_wifi_label">Wi-Fi</string>
+    <string name="roveraction_bluetooth_label">Bluetooth</string>
+    <string name="roveraction_rotation_label">Auto Rotation</string>
+    <string name="roveraction_brightness_label">Brightness</string>
+    <string name="roveraction_ringermode_label">Ringer Mode</string>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <com.schiztech.rovers.app.ui.LockedContentLayout
+        android:id="@+id/lockedContent_lockedContentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <Button
+        android:id="@+id/lockedContent_cancelButton"
+        style="@style/AppTheme.Button.Flat.Dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height_normal"
+        android:maxHeight="@dimen/button_height_normal"
+        android:layout_gravity="end|right|bottom"
+
+        android:text="@string/dialog_dismiss"
+        />
+
+</LinearLayout>

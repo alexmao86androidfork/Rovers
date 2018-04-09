@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="56dp"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="end|right|bottom"
+    >
+    <TextView
+        style="@style/AppTheme.TextAppearance.RoverMenu"
+        android:textSize="@dimen/text_subhead"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/navigation_menu_extensions_height"
+        android:text="@string/navigation_extensions"
+        android:layout_marginTop="@dimen/navigation_menu_extensions_margin"
+        android:layout_marginEnd="@dimen/content_offset_internal"
+        android:layout_marginRight="@dimen/content_offset_internal"
+        android:gravity="center_vertical"
+        android:textColor="@color/md_indigo_400"
+         />
+
+    <com.schiztech.rovers.app.ui.CircleButton
+        android:id="@+id/navigation_extensionsBtn"
+        android:layout_width="@dimen/navigation_menu_extensions_height"
+        android:layout_height="@dimen/navigation_menu_extensions_height"
+        app:circle_color="@color/md_indigo_A200"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_navigation_extensions"
+        android:layout_marginTop="@dimen/navigation_menu_extensions_margin"
+        android:layout_marginEnd="@dimen/navigation_menu_extensions_margin_negative"
+        android:layout_marginRight="@dimen/navigation_menu_extensions_margin_negative"/>
+
+
+
+
+</LinearLayout>

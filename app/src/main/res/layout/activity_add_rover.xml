@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/addRover_mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|right"
+        android:orientation="vertical"
+        android:animateLayoutChanges="true"
+        android:paddingTop="@dimen/content_offset_normal"
+        android:windowMinWidthMajor="@android:dimen/dialog_min_width_major"
+        >
+
+        <LinearLayout
+            android:id="@+id/addRover_buttonsLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:orientation="horizontal"
+            android:animateLayoutChanges="false"
+            android:padding="@dimen/content_offset_small"
+            >
+
+            <Button
+                android:id="@+id/addRover_cancelButton"
+                style="@style/AppTheme.Button.Flat.Dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height_normal"
+                android:gravity="center"
+                android:text="@string/addrover_cancel"
+                />
+
+            <Button
+                android:id="@+id/addRover_addButton"
+                style="@style/AppTheme.Button.Flat.Dialog.Full"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxHeight="@dimen/button_height_normal"
+                android:gravity="center"
+                android:text="@string/addrover_add"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/panel_bottom_height">
+        <LinearLayout
+            android:id="@+id/addRover_warningLayout"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:enabled="false"
+            android:paddingTop="@dimen/content_offset_normal"
+            >
+            <TextView
+                android:id="@+id/addRover_warningDescription"
+                style="@style/AppTheme.TextAppearance.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@color/md_red_500"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                />
+
+            <Button
+                android:id="@+id/addRover_getExtensionBtn"
+                style="@style/AppTheme.Button.Flat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/addrover_get_unlimited"
+                />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        >
+        <FrameLayout
+            android:id="@+id/addRover_fragmentPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+            <com.schiztech.rovers.app.ui.LockedContentLayout
+                android:id="@+id/addRover_lockedContentLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/addRover_fragmentSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+
+</FrameLayout>

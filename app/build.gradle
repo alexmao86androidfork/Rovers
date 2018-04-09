@@ -1,0 +1,71 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/repo' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+apply plugin: 'android'
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/repo' }
+}
+
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion '21.1.1'
+
+    defaultConfig {
+        applicationId "com.schiztech.rovers.app"
+        minSdkVersion 15
+        targetSdkVersion 20
+        versionCode 28
+        versionName "1.1.2"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+
+            proguardFiles 'proguard-support-v7-appcompat.pro'
+            proguardFiles 'proguard-support-v7-cardview.pro'
+            proguardFiles 'proguard-openiab.pro'
+            proguardFiles 'proguard-batch.pro'
+            proguardFiles 'proguard-google-play-services.pro'
+            proguardFiles 'proguard-gson.pro'
+            //proguardFiles 'proguard-acra.pro'
+
+            proguardFile 'proguard-project-app.pro'
+            proguardFiles getDefaultProguardFile('proguard-android.txt')
+        }
+    }
+}
+
+
+dependencies {
+    compile 'com.android.support:support-v4:22+'
+    compile 'com.android.support:appcompat-v7:22+'
+    compile 'com.android.support:cardview-v7:22+'
+    compile 'com.android.support:recyclerview-v7:22+'
+    compile 'com.github.machinarius:preferencefragment:0.1.2'
+    compile 'org.onepf:openiab:0.9.8.4'
+    compile 'com.batch.android:batch-sdk:1.3+'
+    compile 'com.google.android.gms:play-services-analytics:7.3.0'
+    compile 'com.google.android.gms:play-services-gcm:7.3.0'
+    compile 'me.relex:circleindicator:1.1.2@aar'
+    compile 'com.google.code.gson:gson:2.2.+'
+//    compile('ch.acra:acra:4.5.0') {
+//        exclude group: 'org.json'
+//    }
+    compile 'com.tonicartos:stickygridheaders:1.0.1'
+    compile project(':standout')
+    compile 'com.github.codechimp-org.apprater:library:1.0.+'
+    compile 'com.schiztech:roversapilibrary:1.0.0'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile('com.crashlytics.sdk.android:crashlytics:2.5.0@aar') {
+        transitive = true;
+    }
+}

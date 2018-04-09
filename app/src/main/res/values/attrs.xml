@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ColorPreference">
+        <attr name="choices" format="reference" />
+        <attr name="itemLayout" format="reference" />
+        <attr name="numColumns" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ConfigurationTheme">
+        <attr name="isDialog" format="boolean" />
+    </declare-styleable>
+
+
+    <!-- Circular Button -->
+    <declare-styleable name="CircleButton">
+        <attr name="circle_color" format="color"/>
+        <attr name="shadow_size" format="dimension"/>
+        <attr name="shadow_color" format="color"/>
+        <attr name="is_shadow_tilted" format="boolean"/>
+    </declare-styleable>
+
+    <!-- CircularImageView for custom shape -->
+    <declare-styleable name="CircularImageView">
+
+        <!-- Specifies whether or not to draw a circular border around the image. -->
+        <attr name="border" format="boolean"></attr>
+        <!-- Specifies the color of the border draw around the image. (if enabled) -->
+        <attr name="border_color" format="color"></attr>
+        <!-- Makes the border this pixels wide. (if enabled) -->
+        <attr name="border_width" format="dimension"></attr>
+        <!-- Specifies whether or not to draw a selector on this view upon touch events. -->
+        <attr name="selector" format="boolean"></attr>
+        <!-- Specifies the color of the selector draw on top of the image upon touch events. (if enabled) -->
+        <attr name="selector_color" format="color"></attr>
+        <!-- Specifies the color of the selector stroke drawn around the image upon touch events. Be sure to provide some opacity. (if enabled) -->
+        <attr name="selector_stroke_color" format="color"></attr>
+        <!-- Makes the selector stroke drawn around the image upon touch events this pixels wide. (if enabled) -->
+        <attr name="selector_stroke_width" format="dimension"></attr>
+        <!-- Specifies whether or not to draw a shadow around your circular image. -->
+        <attr name="shadow" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="ScrimInsetsView">
+        <attr name="insetForeground" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ArcTextView">
+        <attr name="start_angle" format="float" />
+        <attr name="sweep_angle" format="float" />
+        <attr name="text" format="string" />
+        <attr name="text_color" format="color" />
+        <attr name="text_size" format="dimension" />
+        <attr name="font_family" format="string" />
+        <attr name="diameter" format="dimension" />
+    </declare-styleable>
+
+
+</resources>

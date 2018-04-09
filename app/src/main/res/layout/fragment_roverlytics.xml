@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_primary">
+
+    <!-- 16:9 ratio -->
+    <RelativeLayout
+        android:id="@+id/roverlytics_headerLayout"
+        android:layout_width="@dimen/navigation_drawer_width"
+        android:layout_height="@dimen/roverlytics_header_height"
+        android:background="@color/md_light_blue_500"
+        android:paddingRight="@dimen/content_offset_small"
+        android:paddingTop="@dimen/content_offset_small"
+        android:paddingBottom="@dimen/content_offset_small"
+        android:paddingLeft="@dimen/content_offset_normal"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <com.schiztech.rovers.app.ui.CircleButton
+            android:id="@+id/roverlytics_headerIcon"
+            android:layout_width="@dimen/roverlytics_icon_header_size"
+            android:layout_height="@dimen/roverlytics_icon_header_size"
+            app:circle_color="@color/md_light_blue_500"
+            app:shadow_color="@color/md_white_1000"
+            android:src="@drawable/ic_roverlytics_graph"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom|end"
+            android:gravity="bottom|end"
+            android:layout_marginTop="@dimen/content_offset_small"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_toEndOf="@id/roverlytics_headerIcon"
+            android:layout_toRightOf="@id/roverlytics_headerIcon">
+
+            <TextView
+                style="@style/AppTheme.TextAppearance.Display1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/roverlytics_title_rover"
+                android:textAllCaps="true"
+                android:textColor="@color/md_black_89"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/AppTheme.TextAppearance.Roverlytics.Header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/roverlytics_title_lytics"
+                android:textAllCaps="true" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="@dimen/navigation_drawer_width"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/roverlytics_statsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:layout_alignParentTop="true">
+
+                <FrameLayout
+                    android:layout_width="@dimen/navigation_drawer_width"
+                    android:layout_height="wrap_content"
+                    android:background="@color/md_light_green_400"
+                    >
+
+                    <ImageButton
+                        style="@style/AppTheme.ImageButton.Roverlytics.Share"
+                        android:id="@+id/roverlytics_totalLaunchesShareBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end|right"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingBottom="@dimen/content_offset_small"
+                        android:paddingLeft="@dimen/content_offset_normal"
+
+                        >
+
+
+                        <TextView
+                            style="@style/AppTheme.TextAppearance.Roverlytics.Title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/roverlytics_header_launches"
+                            android:layout_gravity="bottom|end"
+                            android:gravity="end"
+                            android:textAllCaps="true"
+                            android:padding="@dimen/content_offset_internal"
+                            android:textColor="@color/md_white_1000"
+                            android:background="@color/md_light_green_500" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.schiztech.rovers.app.ui.CircleButton
+                                android:layout_width="@dimen/roverlytics_icon_normal_size"
+                                android:layout_height="@dimen/roverlytics_icon_normal_size"
+                                app:circle_color="@color/md_light_green_400"
+                                app:shadow_color="@color/md_white_1000"
+                                android:src="@drawable/ic_roverlytics_launch" />
+
+                            <TextView
+                                style="@style/AppTheme.TextAppearance.Roverlytics.Data"
+                                android:id="@+id/roverlytics_totalLaunchesLabel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textAllCaps="true"
+                                android:layout_gravity="bottom"
+                                android:paddingLeft="@dimen/content_offset_small"
+                                android:textColor="@color/md_white_1000" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="@dimen/navigation_drawer_width"
+                    android:layout_height="wrap_content"
+                    android:background="@color/md_light_green_600"
+
+                    >
+
+                    <ImageButton
+                        style="@style/AppTheme.ImageButton.Roverlytics.Share"
+                        android:id="@+id/roverlytics_avgTimeShareBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingBottom="@dimen/content_offset_small"
+                        android:paddingLeft="@dimen/content_offset_normal"
+                        >
+
+                        <TextView
+                            style="@style/AppTheme.TextAppearance.Roverlytics.Title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/roverlytics_header_time"
+                            android:layout_gravity="bottom|end"
+                            android:gravity="end"
+                            android:textAllCaps="true"
+                            android:padding="@dimen/content_offset_internal"
+                            android:background="@color/md_light_green_700"
+                            android:textColor="@color/md_white_1000" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.schiztech.rovers.app.ui.CircleButton
+                                android:layout_width="@dimen/roverlytics_icon_normal_size"
+                                android:layout_height="@dimen/roverlytics_icon_normal_size"
+                                app:circle_color="@color/md_light_green_600"
+                                app:shadow_color="@color/md_white_1000"
+                                android:src="@drawable/ic_roverlytics_time" />
+
+                            <TextView
+                                style="@style/AppTheme.TextAppearance.Roverlytics.Data"
+                                android:id="@+id/roverlytics_avgTimeLabel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textAllCaps="false"
+                                android:layout_gravity="bottom"
+                                android:paddingLeft="@dimen/content_offset_small"
+                                android:textColor="@color/md_white_1000" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="@dimen/navigation_drawer_width"
+                    android:layout_height="wrap_content"
+                    android:background="@color/md_light_green_800"
+
+                    >
+
+                    <ImageButton
+                        style="@style/AppTheme.ImageButton.Roverlytics.Share"
+                        android:id="@+id/roverlytics_totalDistanceShareBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingBottom="@dimen/content_offset_small"
+                        android:paddingLeft="@dimen/content_offset_normal">
+
+                        <TextView
+                            style="@style/AppTheme.TextAppearance.Roverlytics.Title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/roverlytics_header_distance"
+                            android:layout_gravity="bottom|end"
+                            android:gravity="end"
+                            android:textAllCaps="true"
+                            android:padding="@dimen/content_offset_internal"
+                            android:background="@color/md_light_green_900"
+                            android:textColor="@color/md_white_1000" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.schiztech.rovers.app.ui.CircleButton
+                                android:layout_width="@dimen/roverlytics_icon_normal_size"
+                                android:layout_height="@dimen/roverlytics_icon_normal_size"
+                                app:circle_color="@color/md_light_green_800"
+                                app:shadow_color="@color/md_white_1000"
+                                android:src="@drawable/ic_roverlytics_distance" />
+
+                            <TextView
+                                style="@style/AppTheme.TextAppearance.Roverlytics.Data"
+                                android:id="@+id/roverlytics_totalDistanceLabel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textAllCaps="false"
+                                android:layout_gravity="bottom"
+                                android:paddingLeft="@dimen/content_offset_small"
+                                android:textColor="@color/md_white_1000" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/roverlytics_statsLayout"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextAppearance.Subhead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/roverlytics_love_rovers"
+                    android:gravity="start"
+                    android:textAllCaps="true"
+                    android:textColor="@color/md_black_89"
+                    android:paddingLeft="@dimen/content_offset_normal"
+                    android:paddingTop="@dimen/content_offset_small"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom|center_horizontal"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/content_offset_small"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="bottom|center_horizontal"
+                        android:paddingLeft="@dimen/content_offset_small"
+                        android:paddingRight="@dimen/content_offset_small">
+
+                        <com.schiztech.rovers.app.ui.CircleButton
+                            android:id="@+id/roverlytics_rateBtn"
+                            android:layout_width="@dimen/roverlytics_icon_normal_size"
+                            android:layout_height="@dimen/roverlytics_icon_normal_size"
+                            app:circle_color="@color/color_primary"
+                            app:shadow_color="@color/md_light_green_500"
+                            android:src="@drawable/ic_roverlytics_rate" />
+
+                        <TextView
+                            style="@style/AppTheme.TextAppearance.Subhead"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/roverlytics_rate"
+                            android:textAllCaps="true"
+                            android:gravity="center"
+                            android:padding="@dimen/content_offset_internal"
+                            android:textColor="@color/md_light_green_500" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="bottom|center_horizontal"
+                        android:paddingLeft="@dimen/content_offset_small"
+                        android:paddingRight="@dimen/content_offset_small">
+
+                        <com.schiztech.rovers.app.ui.CircleButton
+                            android:id="@+id/roverlytics_shareBtn"
+                            android:layout_width="@dimen/roverlytics_icon_normal_size"
+                            android:layout_height="@dimen/roverlytics_icon_normal_size"
+                            app:circle_color="@color/color_primary"
+                            app:shadow_color="@color/md_light_blue_500"
+                            android:src="@drawable/ic_roverlytics_share" />
+
+                        <TextView
+                            style="@style/AppTheme.TextAppearance.Subhead"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/roverlytics_share"
+                            android:textAllCaps="true"
+                            android:gravity="center"
+                            android:padding="@dimen/content_offset_internal"
+                            android:textColor="@color/md_light_blue_500" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+</LinearLayout>

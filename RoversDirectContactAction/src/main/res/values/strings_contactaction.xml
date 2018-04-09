@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Rovers Direct Contact Action</string>
+    <string name="title_activity_direct_contact_action">Contact Action</string>
+    <string name="roveraction_directsms_label">Direct SMS</string>
+    <string name="roveraction_directsms_desc">One-Click sms sender to your favorite contacts.</string>
+    <string name="roveraction_directdial_label">Direct Call</string>
+    <string name="roveraction_directdial_desc">One-Click call to your favorite contacts.</string>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.schiztech.roversettingsaction" >
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:exported="true"
+            android:name="com.schiztech.rovers.actions.settings.CreateSettingsActionActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/roveraction_systemtoggles_label"
+            android:icon="@drawable/ri_settings_gear"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="com.schiztech.rovers.action" />
+            </intent-filter>
+            <meta-data
+                android:name="description"
+                android:value="@string/roveraction_systemtoggles_desc" />
+
+        </activity>
+        <activity
+            android:name="com.schiztech.rovers.actions.settings.ToggleActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="@string/title_activity_toggle"
+            android:theme="@android:style/Theme.NoDisplay" >
+        </activity>
+
+        <provider
+            android:name="com.schiztech.rovers.actions.settings.SettingsStatesProvider"
+            android:authorities="com.schiztech.roversettingsaction"
+            android:enabled="true"
+            android:process=":provider"
+            android:exported="true" >
+        </provider>
+
+        <activity
+            android:exported="true"
+            android:name="com.schiztech.rovers.actions.settings.BrightnessActivity"
+            android:label="@string/title_activity_brightness"
+            >
+        </activity>
+    </application>
+
+</manifest>

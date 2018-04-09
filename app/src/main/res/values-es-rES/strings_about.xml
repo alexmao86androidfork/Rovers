@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_fragment_title">Rovers About</string>
+
+    <string name="about_libraries">Code Libraries</string>
+    <string name="about_icon_packs">Icon Packs</string>
+</resources>

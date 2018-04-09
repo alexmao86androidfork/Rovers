@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@android:id/text1"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingBottom="@dimen/content_offset_small"
+            android:paddingLeft="@dimen/content_offset_small"
+            android:paddingTop="@dimen/content_offset_small"
+            android:textAllCaps="true"
+            android:textSize="@dimen/text_subhead"
+            android:textStyle="bold" />

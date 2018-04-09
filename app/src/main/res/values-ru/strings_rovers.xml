@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rovers_launch_error_lost">Этот Rover, похоже, утерян. Попробуйте удалить его и добавить снова.</string>
+    <string name="rovers_launch_error_default">У этого Rover проблема. Попробуйте удалить его и добавить снова.</string>
+    <string name="rovers_hide">Скрыть</string>
+    <string name="rovers_hidden_alert_title">Rovers ещё здесь</string>
+    <string name="rovers_hidden_alert_desc">Вы снова можете отобразить Rovers в панели уведомлений.</string>
+    <string name="rovers_hidden_alert_button">получил</string>
+</resources>

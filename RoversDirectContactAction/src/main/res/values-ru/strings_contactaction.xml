@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="app_name">Действие быстрого контакта Rovers</string>
+    <string name="title_activity_direct_contact_action">Действие контакта</string>
+    <string name="roveraction_directsms_label">Быстрое СМС</string>
+    <string name="roveraction_directsms_desc">Отправка СМС одним нажатием избранным контактам.</string>
+    <string name="roveraction_directdial_label">Быстрый вызов</string>
+    <string name="roveraction_directdial_desc">Вызов избранных контактов одним нажатием.</string>
+</resources>

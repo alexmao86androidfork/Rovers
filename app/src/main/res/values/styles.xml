@@ -1,0 +1,195 @@
+<resources>
+
+    <!-- Text Fields -->
+
+    <style name="AppTheme.TextAppearance" parent="android:TextAppearance.DeviceDefault" />
+
+    <style name="AppTheme.TextAppearance.Display4" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/text_display_4</item>
+        <item name="android:textColor">@color/text_display_4</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Display3" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/text_display_3</item>
+        <item name="android:textColor">@color/text_display_3</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Display2" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/text_display_2</item>
+        <item name="android:textColor">@color/text_display_2</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Display1" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/text_display_1</item>
+        <item name="android:textColor">@color/text_display_1</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Headline" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/text_headline</item>
+        <item name="android:textColor">@color/text_headline</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Title" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:textColor">@color/text_title</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Subhead" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/text_subhead</item>
+        <item name="android:textColor">@color/text_subhead</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Description" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/text_description</item>
+        <item name="android:textColor">@color/text_description</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Body2" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/text_body_2</item>
+        <item name="android:textColor">@color/text_body_2</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Body1" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/text_body_1</item>
+        <item name="android:textColor">@color/text_body_1</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Caption" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/text_caption</item>
+        <item name="android:textColor">@color/text_caption</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Button" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/text_button</item>
+        <item name="android:textColor">@color/text_button</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.FragmentHeader.Base" parent="AppTheme.TextAppearance.Headline">
+        <item name="android:textAllCaps">true</item>
+
+    </style>
+
+    <style name="AppTheme.TextAppearance.FragmentHeader" parent="AppTheme.TextAppearance.FragmentHeader.Base" />
+
+
+    <style name="AppTheme.TextAppearance.LightWithShadow" parent="AppTheme.TextAppearance.Body1">
+        <item name="android:textColor">@color/md_white_1000</item>
+        <item name="android:shadowColor">@color/md_black_de</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.RoverMenu" parent="AppTheme.TextAppearance.Description">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <!--<item name="android:shadowColor">@color/md_black_89</item>-->
+    </style>
+
+    <style name="AppTheme.TextAppearance.Roverlytics.Base" parent="AppTheme.TextAppearance.LightWithShadow">
+        <item name="android:textColor">@color/md_white_1000</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Roverlytics.Header.Base" parent="AppTheme.TextAppearance.Roverlytics.Base">
+        <item name="android:textSize">@dimen/text_display_1</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Roverlytics.Header" parent="AppTheme.TextAppearance.Roverlytics.Header.Base" />
+
+    <style name="AppTheme.TextAppearance.Roverlytics.Data.Base" parent="AppTheme.TextAppearance.Roverlytics.Base">
+        <item name="android:textSize">@dimen/text_display_1</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Roverlytics.Data" parent="AppTheme.TextAppearance.Roverlytics.Data.Base" />
+
+
+    <style name="AppTheme.TextAppearance.Roverlytics.Title.Base" parent="AppTheme.TextAppearance.Roverlytics.Base">
+        <item name="android:textSize">@dimen/text_subhead</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Roverlytics.Title" parent="AppTheme.TextAppearance.Roverlytics.Title.Base" />
+
+    <style name="AppTheme.TextAppearance.Tutorial.Base" parent="AppTheme.TextAppearance">
+        <item name="android:textColor">@color/md_white_1000</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Tutorial.Headline" parent="AppTheme.TextAppearance.Tutorial.Base">
+        <item name="android:textSize">@dimen/text_headline</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Tutorial.Description" parent="AppTheme.TextAppearance.Tutorial.Base">
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+
+
+    <!-- Buttons-->
+    <style name="AppTheme.Button" parent="@android:style/Widget.DeviceDefault.Button">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Button</item>
+        <item name="android:textColor">@color/md_white_1000</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@drawable/btn_normal</item>
+        <item name="android:minWidth">88dp</item>
+    </style>
+
+    <style name="AppTheme.Button.Buy" parent="AppTheme.Button">
+        <item name="android:background">@drawable/btn_buy</item>
+    </style>
+
+    <style name="AppTheme.Button.Settings" parent="AppTheme.Button">
+        <item name="android:background">@drawable/btn_settings</item>
+    </style>
+
+    <style name="AppTheme.Button.Install" parent="AppTheme.Button">
+        <item name="android:background">@drawable/btn_install</item>
+    </style>
+
+    <style name="AppTheme.Button.Flat" parent="@android:style/Widget.DeviceDefault.Button.Borderless">
+        <item name="android:background">@drawable/btn_flat</item>
+        <item name="android:textColor">@color/button_flat_text</item>
+        <item name="android:textAllCaps">true</item>
+
+    </style>
+
+    <style name="AppTheme.Button.Flat.Dialog" parent="AppTheme.Button.Flat" />
+
+    <style name="AppTheme.Button.Flat.Dialog.Full" parent="AppTheme.Button" />
+
+    <style name="AppTheme.ImageButton.Roverlytics.Share" parent="android:Widget.ImageButton">
+        <item name="android:layout_gravity">right|end|bottom</item>
+        <item name="android:padding">@dimen/roverlytics_share_padding</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:src">@drawable/abc_ic_menu_share_mtrl_alpha</item>
+    </style>
+
+
+    <style name="AppTheme.Button.Walkthrough" parent="AppTheme.Button">
+        <item name="android:background">@drawable/btn_walkthrough</item>
+    </style>
+    <style name="AppTheme.Button.Flat.Walkthrough" parent="AppTheme.Button.Flat">
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:textColor">@color/md_white_de</item>
+        <item name="android:shadowColor">@color/md_black_de</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:padding">@dimen/imagebutton_padding</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+
+    </style>
+
+
+    <style name="AppTheme.Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/divider_height</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="AppTheme.Divider.Light" parent="AppTheme.Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/divider_height</item>
+        <item name="android:background">@color/md_white_89</item>
+    </style>
+
+
+</resources>

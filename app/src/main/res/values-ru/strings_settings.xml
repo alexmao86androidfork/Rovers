@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_fragment_title">Настройки Rovers</string>
+    <string name="settings_header_title">Настройки</string>
+    <string name="settings_header_desc">Настройте параметры для персонализации использования Rover</string>
+    <string name="settings_pref_header_rover_items">Элементы Rover</string>
+    <string name="settings_pref_header_corner_host">Угловой хост</string>
+    <string name="settings_pref_header_floating_trigger">Плавающая кнопка</string>
+    <string name="settings_pref_header_misc">Разное</string>
+    <string name="settings_pref_def_app_color_title">Цвет приложения по умолчанию</string>
+    <string name="settings_pref_def_app_color_desc">Цвет приложения по умолчанию Rover</string>
+    <string name="settings_pref_def_shortcut_color_title">Цвет ярлыка по умолчанию</string>
+    <string name="settings_pref_def_shortcut_color_desc">Цвет ярлыка по умолчанию Rover</string>
+    <string name="settings_pref_def_folder_color_title">Цвет папки по умолчанию</string>
+    <string name="settings_pref_def_folder_color_desc">Цвет папки по умолчанию Rover</string>
+    <string name="settings_pref_sticky_corner_title">Липкий угол</string>
+    <string name="settings_pref_sticky_corner_desc">Угол по умолчанию для открытия хоста</string>
+    <string name="settings_pref_orientation_title">Ориентация</string>
+    <string name="settings_pref_orientation_desc">Ориентация хоста</string>
+    <string name="settings_pref_add_on_edit_only_title">Добавить Rover только в режиме редактирования</string>
+    <string name="settings_pref_add_on_edit_only_desc_on">Показать Добавить Rover только в режиме редактирования</string>
+    <string name="settings_pref_add_on_edit_only_desc_off">Добавить Rover всегда видимая</string>
+    <string name="settings_pref_trigger_bg_color_title">Цвет фона</string>
+    <string name="settings_pref_trigger_bg_color_desc">Цвет фона плавающей кнопки</string>
+    <string name="settings_pref_trigger_icon_color_title">Цвет значка</string>
+    <string name="settings_pref_trigger_icon_color_desc">Цвет значка плавающей кнопки</string>
+    <string name="settings_pref_trigger_rest_alpha_title">Прозрачность в бездействии</string>
+    <string name="settings_pref_trigger_rest_alpha_desc">Уровень прозрачности кнопки в бездействии</string>
+    <string name="settings_pref_trigger_rest_offset_title">Сдвиг в бездействии</string>
+    <string name="settings_pref_trigger_rest_offset_desc">Уровень сдвига кнопки в бездействии</string>
+    <string name="settings_pref_mute_click_title">Приглушение звука нажатия Rover</string>
+    <string name="settings_pref_mute_click_desc_on">Нажатие Rover приглушено</string>
+    <string name="settings_pref_mute_click_desc_off">Нажатие Rover со звуком</string>
+    <string name="settings_pref_anon_data_title">Отправка анонимных данных</string>
+    <string name="settings_pref_anon_data_desc_on">Помогите нашему развитию, отправляя полностью анонимные данные</string>
+    <string name="settings_pref_anon_data_desc_off">Анонимные данные не отправляются</string>
+    <string name="settings_pref_crash_reports_title">Отправлять отчёты о сбоях</string>
+    <string name="settings_pref_crash_reports_desc_on">Автоматически оправлять анонимные отчёты о сбоях</string>
+    <string name="settings_pref_crash_reports_desc_off">Отчеты о сбоях не отправляются</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="design_error_change_color">Cambiar colores no es posible en este Rover</string>
+    <string name="design_error_change_icon">Cambiar íconos no es posible en este Rover</string>
+    <string name="design_change_color">cambiar color</string>
+    <string name="design_change_icon">"cambiar ícono "</string>
+    <string name="design_back_to_default">volver al predeterminado</string>
+</resources>

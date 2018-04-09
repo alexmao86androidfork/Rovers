@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Rover Actions -->
+    <string name="roveraction_home_label">Início</string>
+    <string name="roveraction_home_desc">Simulação de um toque no botão \"Iniciar\" que funciona como um acesso rápido para sua tela inicial.</string>
+    <string name="roveraction_appdrawer_label">Gaveta de Aplicativos</string>
+    <string name="roveraction_appdrawer_desc">Gaveta com Todos os Aplicativos \"onde quer que esteja\", abre por sobre qualquer aplicativo aberto.</string>
+    <string name="roveraction_recentapps_label">Aplicativos Recentes</string>
+    <string name="roveraction_recentapps_desc">Alterne entre os aplicativos usados ​​recentemente e melhore suas habilidades multitarefa.</string>
+    <string name="roveraction_clearram_label">Liberar Ram</string>
+    <string name="roveraction_clearram_desc">Faz o seu dispositivo ficar super suave limpando memória Ram tomada desnecessariamente.</string>
+    <string name="roveraction_lastapp_label">Ultimo Aplicativo</string>
+    <string name="roveraction_lastapp_desc">Alterne entre o aplicativo atual e o último utilizado, Multitarefa em seu auge!</string>
+    <string name="roveraction_search_label">Pesquisar</string>
+    <string name="roveraction_search_desc">Simulação de toque em um botão \"Pesquisar\" que normalmente abre o aplicativo de busca padrão do seu dispositivo.</string>
+    <string name="roveraction_voicecommands_label">Comandos de Voz</string>
+    <string name="roveraction_voicecommands_desc">Abre o Aplicativo Padrão de Comando de Voz se o seu dispositivo tiver suporte.</string>
+    <!-- Suggested Rover Actions -->
+    <string name="roveraction_suggested_batterylevel_label">Nível de Bateria</string>
+    <string name="roveraction_suggested_batterylevel_desc">Obtenha o nível atual de bateria com Precisão em 1%.</string>
+    <string name="roveraction_suggested_directcontact_label">Contato Direto</string>
+    <string name="roveraction_suggested_directcontact_desc">Contate seus amigos facilmente com Um Toque com as ações de Discagem/Sms</string>
+    <string name="roveraction_suggested_flashlight_label">Lanterna</string>
+    <string name="roveraction_suggested_flashlight_desc">Ilumine o quarto mais escuro com a rápida ação de lanterna.</string>
+    <string name="roveraction_suggested_settings_label">Alternar Configurações</string>
+    <string name="roveraction_suggested_settings_desc">Acesso rápido a configurações do sistema como Wi-Fi, Bluetooth, Nível de Brilho e mais.</string>
+    <!-- Example: Cleared 100MB Ram -->
+    <string name="roveraction_clearram_cleared">Liberados</string>
+    <!-- Example: Cleared 100MB Ram -->
+    <string name="roveraction_clearram_mbram">MB de Ram</string>
+    <string name="roveraction_notsupported">Desculpe, essa ação não é suportada atualmente no Android versão 5.0 e superior.</string>
+</resources>

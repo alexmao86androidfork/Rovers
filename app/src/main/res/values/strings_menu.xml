@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    <string name="menu_about">About</string>
+    <string name="menu_contact">Contact Us</string>
+    <string name="menu_translate">Translate</string>
+    <string name="menu_tutorial">Walkthrough</string>
+    <string name="menu_api">Developers Api</string>
+    <string name="menu_faq">FAQ</string>
+
+</resources>

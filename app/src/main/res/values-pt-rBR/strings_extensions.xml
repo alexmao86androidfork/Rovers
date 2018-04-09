@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="extensions_fragment_title">Extensões Rovers</string>
+    <string name="extensions_already_got">Você já possui essa extensão</string>
+    <string name="extensions_congratulations">Parabéns!</string>
+    <string name="extensions_successfully_got">Você obteve a extensão</string>
+    <string name="extensions_more_colors_title">Mais Cores</string>
+    <string name="extensions_more_colors_desc">Personalize cada Rover com uma cor diferente da sua própria. Faça a sua experiencia mais colorida!</string>
+    <string name="extensions_more_rovers_title">Mais Rovers</string>
+    <string name="extensions_more_rovers_desc">Adicione quantos Rovers você quiser, Sem limitações, e faça eu experiência no Rovers mais ampla que nunca!</string>
+    <string name="extensions_more_settings_title">Mais Configurações</string>
+    <string name="extensions_more_settings_desc">Obtenha as Configurações do Gatilho Rover, e faça a sua experiencia no Rovers única!</string>
+    <string name="extensions_complete_package_title">Pacote Completo</string>
+    <string name="extensions_complete_package_desc">Isto inclui tudo, como todas as extensões atuais e futuras que virão.</string>
+    <string name="extensions_locked_more_colors">Desculpe, essa opção está disponível apenas com a extensão \"Mais Cores\".</string>
+    <string name="extensions_locked_more_rovers">Você atingiu a quantidade máxima de Rovers. Adicione mais obtendo a extensão \"Mais Rovers\" ou remova Rovers existentes.</string>
+    <string name="extensions_locked_more_settings">Desculpe, essa opção está disponível apenas com a extensão \"Mais Configurações\".</string>
+    <string name="extensions_have_promotion">Eu tenho um código promocional</string>
+    <string name="extensions_header_title">Extensões</string>
+    <string name="extensions_header_desc">Obtenha mais atributos que farão sua experiência no Rovers ainda melhor!</string>
+    <string name="extensions_get_extensions">obtenha extensões</string>
+    <string name="extensions_buy_now">comprar agora</string>
+    <string name="extensions_got_it">consegui!</string>
+</resources>

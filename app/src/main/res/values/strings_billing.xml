@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="billing_error_setup_incomplete">Billing Setup is not completed yet. Please try again in a few seconds.</string>
+    <string name="billing_error_setup_failed">Billing Setup failed. Please make sure you are connected to the internet and restart Rovers.</string>
+    <string name="billing_error_sku_extension_not_found">Could not identify the extension, try restarting Rovers. Please contact us if this problem continues.</string>
+
+    <string name="billing_error_consume_empty">Could not consume empty item.</string>
+    <string name="billing_error_verification_failed_full">Error purchasing. Authenticity verification failed.</string>
+
+    <string name="billing_thank_you">Thank You!</string>
+    <string name="billing_coffee_thanks_start">Thanks a lot for the coffee!</string>
+    <string name="billing_coffee_thanks_end">We promise to keep on doing whatever is possible to give you the best Rovers experience possible.</string>
+
+    <string name="billing_error_already_owned">Item Already Owned</string>
+    <string name="billing_error_bad_response">Bad Response</string>
+    <string name="billing_error_send_intent_failed">Send Intent Failed</string>
+    <string name="billing_error_verification_failed">Verification failed</string>
+    <string name="billing_error_unknown_purchase_response">Unknown Purchase Response</string>
+    <string name="billing_error_missing_token">Missing Token</string>
+    <string name="billing_error_unknown_error">Unknown Error</string>
+    <string name="billing_error_invalid_consumption">Invalid Consumption</string>
+    <string name="billing_purchase_error">Purchase Error</string>
+    <string name="billing_contact_if_error_continues">Please contact us if this problem continues.</string>
+    <string name="billing_error_verify_previous_purchases">Failed to verify previous purchases</string>
+
+</resources>

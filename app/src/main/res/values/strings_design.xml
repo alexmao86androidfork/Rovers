@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="design_error_change_color">Changing color is not possible on this rover</string>
+    <string name="design_error_change_icon">Changing icon is not possible on this rover</string>
+
+    <string name="design_change_color">change color</string>
+    <string name="design_change_icon">change icon</string>
+    <string name="design_back_to_default">back to default</string>
+
+</resources>

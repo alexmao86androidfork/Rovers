@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="design_error_change_color">Mudar a cor não é possível nesse rover</string>
+    <string name="design_error_change_icon">Mudar o ícone não é possível nesse rover</string>
+    <string name="design_change_color">mudar cor</string>
+    <string name="design_change_icon">mudar ícone</string>
+    <string name="design_back_to_default">de volta ao padão</string>
+</resources>

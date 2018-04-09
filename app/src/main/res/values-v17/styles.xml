@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.TextAppearance.FragmentHeader" parent="AppTheme.TextAppearance.FragmentHeader.Base">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+
+    <style name="AppTheme.TextAppearance.Data.Header" parent="AppTheme.TextAppearance.Roverlytics.Data.Base">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+
+</resources>

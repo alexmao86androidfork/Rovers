@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="design_button_padding">@dimen/gap_normal</dimen>
+    <dimen name="design_button_margin">@dimen/gap_small</dimen>
+
+</resources>

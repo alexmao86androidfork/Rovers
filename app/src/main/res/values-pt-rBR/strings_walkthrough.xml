@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walkthrough_activity_title">Tutorial do Rovers</string>
+    <string name="walkthrough_skip">pular</string>
+    <string name="walkthrough_thats_it">É isso ai,</string>
+    <string name="walkthrough_ready">Você está pronto para os Rovers!</string>
+    <string name="walkthrough_step1_title">Esse é o Gatilho de Rovers</string>
+    <string name="walkthrough_step1_desc">Toca-lo vai abrir o menu flutuante</string>
+    <string name="walkthrough_step2_title">4 Tipos de Rovers</string>
+    <string name="walkthrough_step2_desc">Você pode adicionar Apps, Atalhos, Pastas &amp; Ações</string>
+    <string name="walkthrough_step3_title">Mantenha Pressionado para editar</string>
+    <string name="walkthrough_step3_desc">Inicie o Mode de Edição mantendo um Rover pressionado</string>
+    <string name="walkthrough_step4_title">Deletar &amp; Reordenar</string>
+    <string name="walkthrough_step4_desc">No Modo de Edição, deslize para deletar ou mantenha pressionado para reordenar</string>
+</resources>

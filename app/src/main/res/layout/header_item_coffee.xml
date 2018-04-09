@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coffee_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/action_item_margin"
+    app:cardBackgroundColor="@color/md_white_1000"
+    app:cardElevation="@dimen/action_item_elevation"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/action_item_padding"
+            android:paddingTop="@dimen/action_item_padding">
+
+            <TextView
+                android:id="@+id/coffee_title"
+                style="@style/AppTheme.TextAppearance.Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:text="@string/extensions_thanks_title"
+                android:textColor="@color/extensions_fragment_header_title" />
+
+            <TextView
+                android:id="@+id/coffee_description"
+                style="@style/AppTheme.TextAppearance.Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/content_offset_internal"
+                android:autoLink="all"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:paddingLeft="@dimen/gap_normal"
+                android:paddingRight="@dimen/gap_normal"
+                android:text="@string/extensions_thanks_got_all"
+                android:textColor="@color/extensions_fragment_header_subtitle" />
+
+            <TextView
+                android:id="@+id/coffee_description2"
+                style="@style/AppTheme.TextAppearance.Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/content_offset_internal"
+                android:autoLink="all"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:paddingLeft="@dimen/gap_normal"
+                android:paddingRight="@dimen/gap_normal"
+                android:text="@string/extensions_thanks_we_do_everything" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/coffee_buttonsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/about_panel_height"
+            android:background="?android:attr/selectableItemBackground"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/coffee_rateButton"
+                style="@style/AppTheme.Button.Flat"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/extensions_rate" />
+
+            <Button
+                android:id="@+id/coffee_donateButton"
+                style="@style/AppTheme.Button.Flat"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/extensions_buy_us_coffee" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

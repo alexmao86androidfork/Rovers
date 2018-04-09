@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ação de Bateria Rovers</string>
+    <string name="roveraction_battery_label">Detalhes de Bateria</string>
+    <string name="roveraction_battery_desc">Mostra o nível de bateria atual do seu dispositivo. também funciona com um atalho para a tela de configurações \"Detalhes da Bateria\"</string>
+</resources>

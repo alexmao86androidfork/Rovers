@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Rover Actions -->
+    <string name="roveraction_home_label">Home</string>
+    <string name="roveraction_home_desc">Simulation of a "Home" button click which acts as a quick access to your home screen.</string>
+
+    <string name="roveraction_appdrawer_label">App Drawer</string>
+    <string name="roveraction_appdrawer_desc">Full application drawer "on the go", opens above any opened app.</string>
+
+    <string name="roveraction_recentapps_label">Recent Apps</string>
+    <string name="roveraction_recentapps_desc">Switch between your recently used applications and improve your multitask skills.</string>
+
+    <string name="roveraction_clearram_label">Clear Ram</string>
+    <string name="roveraction_clearram_desc">Makes your device super-smooth by clearing unnesseseraly taken memory.</string>
+
+    <string name="roveraction_lastapp_label">Last App</string>
+    <string name="roveraction_lastapp_desc">Toggle between the current app and the last one used, Multitask at it\'s prime!</string>
+
+    <string name="roveraction_search_label">Search</string>
+    <string name="roveraction_search_desc">Simulation of a "Search" button click which usually opens your device\'s defaulted search app.</string>
+
+    <string name="roveraction_voicecommands_label">Voice Commands</string>
+    <string name="roveraction_voicecommands_desc">Opens the default voice commands application if your device supports it.</string>
+
+
+    <!-- Suggested Rover Actions -->
+    <string name="roveraction_suggested_batterylevel_label">Battery Level</string>
+    <string name="roveraction_suggested_batterylevel_desc">Get the current battery level of your device in 1% accuracy.</string>
+
+    <string name="roveraction_suggested_directcontact_label">Direct Contact</string>
+    <string name="roveraction_suggested_directcontact_desc">Contact with your friends easily with One-Click dial/sms actions.</string>
+
+    <string name="roveraction_suggested_flashlight_label">Flashlight</string>
+    <string name="roveraction_suggested_flashlight_desc">Light up the darkest room with the quick flashlight action.</string>
+
+    <string name="roveraction_suggested_settings_label">Settings Toggles</string>
+    <string name="roveraction_suggested_settings_desc">Quick access to system toggles like Wi-Fi, Bluetooth, Brightness level and more.</string>
+
+
+    <!-- Example: Cleared 100MB Ram -->
+    <string name="roveraction_clearram_cleared">Cleared</string>
+    <!-- Example: Cleared 100MB Ram -->
+    <string name="roveraction_clearram_mbram">MB Ram</string>
+
+    <string name="roveraction_notsupported">Sorry, this action is currently not supported on Android v5.0 and above.</string>
+</resources>

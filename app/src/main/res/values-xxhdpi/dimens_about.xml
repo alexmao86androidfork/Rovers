@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- About Fragment -->
+    <dimen name="about_item_elevation">@dimen/card_elevation_normal</dimen>
+    <dimen name="about_item_margin">@dimen/card_margin_normal</dimen>
+    <dimen name="about_item_padding">@dimen/card_padding_normal</dimen>
+    <!-- Credits -->
+    <dimen name="credit_item_elevation">@dimen/card_elevation_normal</dimen>
+    <dimen name="credit_item_margin">@dimen/card_margin_normal</dimen>
+    <dimen name="credit_item_padding">@dimen/card_padding_normal</dimen>
+
+    <dimen name="about_header_height">@dimen/image_icon_large</dimen>
+    <dimen name="about_panel_height">@dimen/panel_height</dimen>
+    <dimen name="more_thanks_image_padding">@dimen/imagebutton_padding</dimen>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_about">О приложении</string>
+    <string name="menu_contact">Свяжитесь с нами</string>
+    <string name="menu_translate">Перевод</string>
+    <string name="menu_tutorial">Прогулка</string>
+    <string name="menu_api">Api разработчиков</string>
+</resources>

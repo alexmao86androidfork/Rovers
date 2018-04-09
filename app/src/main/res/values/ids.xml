@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="rover_label" type="id"/>
+
+    <item name="host_placeholder" type="id"/>
+    <item name="host_addrover" type="id"/>
+    <item name="host_parent" type="id"/>
+    <item name="host_scroll" type="id"/>
+    <item name="host_scroll_container" type="id"/>
+    <item name="host_layout" type="id"/>
+
+</resources>

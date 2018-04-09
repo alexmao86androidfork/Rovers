@@ -1,0 +1,64 @@
+<com.schiztech.rovers.app.ui.reveallayout.RevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reveal_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/md_grey_200">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/layout_contentfragment_toolbar"/>
+
+            <!-- Get More Actions -->
+            <RelativeLayout
+                android:id="@+id/actions_getMoreLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/md_grey_300"
+
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+
+
+
+                >
+
+                <ImageView
+                    android:id="@+id/actions_getMore_googlePlayBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_actions_googleplay"
+                    android:layout_alignParentRight="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:padding="@dimen/more_actions_image_padding"
+                    />
+
+                <TextView
+                    style="@style/AppTheme.TextAppearance.Subhead"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/actions_getMore_googlePlayBtn"
+                    android:textColor="@color/md_black_89"
+                    android:layout_centerVertical="true"
+                    android:text="@string/actions_get_more_play"
+                    android:textAllCaps="true"/>
+
+            </RelativeLayout>
+
+            <!-- Actions List -->
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/actions_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+
+    </FrameLayout>
+</com.schiztech.rovers.app.ui.reveallayout.RevealLayout>

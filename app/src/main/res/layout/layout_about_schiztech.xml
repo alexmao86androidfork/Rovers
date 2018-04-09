@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/content_offset_normal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="@dimen/about_header_height"
+            android:layout_height="@dimen/about_header_height"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_about_schiztech"
+            android:padding="@dimen/imagebutton_padding" />
+
+
+        <TextView
+            style="@style/AppTheme.TextAppearance.Headline"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/about_header_height"
+            android:gravity="center_vertical"
+            android:text="@string/about_schiztech_studio"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:textColor="@color/md_grey_900"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:paddingEnd="@dimen/content_offset_normal"
+            android:paddingRight="@dimen/content_offset_normal"
+            />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        style="@style/AppTheme.TextAppearance.Description"
+        android:id="@+id/schiztech_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:text="@string/about_developed_by"
+        android:autoLink="all"
+        android:padding="@dimen/content_offset_small" />
+
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/about_item_margin"
+        app:cardElevation="@dimen/about_item_elevation"
+        app:cardBackgroundColor="@color/md_white_1000"
+        app:cardUseCompatPadding="true"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end|right">
+
+
+            <ImageButton
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/about_panel_height"
+                android:layout_weight="1"
+                android:src="@drawable/ic_about_facebook"
+                android:layout_gravity="center"
+                android:id="@+id/schiztech_facebookBtn" />
+
+            <ImageButton
+                android:id="@+id/schiztech_twitterBtn"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/about_panel_height"
+                android:layout_weight="1"
+                android:src="@drawable/ic_about_twitter"
+                android:layout_gravity="center" />
+
+            <ImageButton
+                android:id="@+id/schiztech_websiteBtn"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/about_panel_height"
+                android:layout_weight="1"
+                android:src="@drawable/ic_about_website"
+                android:layout_gravity="center" />
+
+
+            <ImageButton
+                android:id="@+id/schiztech_playstoreBtn"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/about_panel_height"
+                android:layout_weight="1"
+                android:src="@drawable/ic_about_googleplay"
+                android:layout_gravity="center" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ação de Configurações Rovers</string>
+    <string name="hello_world">Olá Mundo!</string>
+    <string name="action_settings">Configurações</string>
+    <string name="roveraction_systemtoggles_label">Altenar Configurações</string>
+    <string name="roveraction_systemtoggles_desc">Acesso rápido às configurações de Sistema como Wi-fi, Bluetooth, Nível de Brilho e Mais.</string>
+    <string name="title_activity_toggle">Alternar</string>
+    <string name="title_activity_brightness">Brilho</string>
+    <string name="roveraction_wifi_label">Wi-fi</string>
+    <string name="roveraction_bluetooth_label">Bluetooth</string>
+    <string name="roveraction_rotation_label">Auto Rotação</string>
+    <string name="roveraction_brightness_label">Brilho</string>
+    <string name="roveraction_ringermode_label">Modo de Campainha</string>
+</resources>

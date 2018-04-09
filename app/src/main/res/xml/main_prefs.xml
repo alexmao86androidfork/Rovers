@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/settings_pref_header_rover_items"
+        >
+
+    <com.schiztech.rovers.app.configuration.ColorPreference
+        android:key="Rovers_Items_Default_Application_Color"
+        android:defaultValue="@color/items_default_application_color_default"
+        android:title="@string/settings_pref_def_app_color_title"
+        android:summary="@string/settings_pref_def_app_color_desc" />
+
+    <com.schiztech.rovers.app.configuration.ColorPreference
+        android:key="Rovers_Items_Default_Shortcut_Color"
+        android:defaultValue="@color/items_default_shortcut_color_default"
+        android:title="@string/settings_pref_def_shortcut_color_title"
+        android:summary="@string/settings_pref_def_shortcut_color_desc" />
+
+    <com.schiztech.rovers.app.configuration.ColorPreference
+        android:key="Rovers_Items_Default_Folder_Color"
+        android:defaultValue="@color/items_default_folder_color_default"
+        android:title="@string/settings_pref_def_folder_color_title"
+        android:summary="@string/settings_pref_def_folder_color_desc" />
+
+    <com.schiztech.rovers.app.configuration.RoversSizeSeekBarPreference
+        android:key="Rovers_Items_Item_Size"
+        android:defaultValue="@integer/items_item_size_default"
+        android:title="@string/settings_pref_item_size_title"
+        android:summary="@string/settings_pref_item_size_desc"
+        android:entries="@array/item_size_entries_array"
+        android:entryValues="@array/item_size_values_array"
+        />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/settings_pref_header_corner_host">
+
+        <ListPreference
+            android:key="Rovers_Host_Sticky_Corner"
+            android:defaultValue="@integer/host_sticky_corner_default"
+            android:entries="@array/host_sticky_corner_entries_array"
+            android:entryValues="@array/host_sticky_corner_values_array"
+            android:title="@string/settings_pref_sticky_corner_title"
+            android:summary="@string/settings_pref_sticky_corner_desc"
+            />
+
+        <ListPreference
+            android:key="Rovers_Host_Orientation"
+            android:defaultValue="@integer/host_orientation_default"
+            android:entries="@array/host_orientation_entries_array"
+            android:entryValues="@array/host_orientation_values_array"
+            android:title="@string/settings_pref_orientation_title"
+            android:summary="@string/settings_pref_orientation_desc"
+            />
+
+        <CheckBoxPreference
+            android:key="Rovers_Host_Add_On_Edit_Only"
+            android:defaultValue="@bool/host_add_on_edit_only_default"
+            android:title="@string/settings_pref_add_on_edit_only_title"
+            android:summaryOn="@string/settings_pref_add_on_edit_only_desc_on"
+            android:summaryOff="@string/settings_pref_add_on_edit_only_desc_off"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/settings_pref_header_floating_trigger"
+        >
+
+        <com.schiztech.rovers.app.configuration.ColorPreference
+            android:key="Rovers_Trigger_Background_Color"
+            android:defaultValue="@color/trigger_background_color_default"
+            android:title="@string/settings_pref_trigger_bg_color_title"
+            android:summary="@string/settings_pref_trigger_bg_color_desc" />
+
+        <com.schiztech.rovers.app.configuration.ColorPreference
+            android:key="Rovers_Trigger_Icon_Color"
+            android:defaultValue="@color/trigger_icon_color_default"
+            android:title="@string/settings_pref_trigger_icon_color_title"
+            android:summary="@string/settings_pref_trigger_icon_color_desc" />
+
+        <ListPreference
+            android:key="Rovers_Trigger_Rest_Alpha"
+            android:defaultValue="@string/trigger_rest_alpha_default"
+            android:entryValues="@array/trigger_rest_alpha_values_array"
+            android:entries="@array/trigger_rest_alpha_entries_array"
+            android:title="@string/settings_pref_trigger_rest_alpha_title"
+            android:summary="@string/settings_pref_trigger_rest_alpha_desc" />
+
+        <ListPreference
+            android:key="Rovers_Trigger_Rest_Offset"
+            android:defaultValue="@string/trigger_rest_offset_default"
+            android:entryValues="@array/trigger_rest_offset_values_array"
+            android:entries="@array/trigger_rest_offset_entries_array"
+            android:title="@string/settings_pref_trigger_rest_offset_title"
+            android:summary="@string/settings_pref_trigger_rest_offset_desc" />
+
+
+        <CheckBoxPreference
+            android:key="Rovers_Trigger_Independent_Size"
+            android:defaultValue="@bool/trigger_independent_size_default"
+            android:title="@string/settings_pref_trigger_independent_size_title"
+            android:summaryOn="@string/settings_pref_trigger_independent_size_desc_on"
+            android:summaryOff="@string/settings_pref_trigger_independent_size_desc_off"
+            />
+
+        <com.schiztech.rovers.app.configuration.RoversSizeSeekBarPreference
+            android:key="Rovers_Trigger_Item_Size"
+            android:defaultValue="@integer/trigger_item_size_default"
+            android:title="@string/settings_pref_trigger_size_title"
+            android:summary="@string/settings_pref_trigger_size_desc"
+            android:entries="@array/item_size_entries_array"
+            android:entryValues="@array/item_size_values_array"
+            android:dependency="Rovers_Trigger_Independent_Size"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/settings_pref_header_misc">
+
+
+        <CheckBoxPreference
+            android:key="Rovers_Misc_Mute_Click_Sound"
+            android:defaultValue="@bool/misc_mute_click_sound_default"
+            android:title="@string/settings_pref_mute_click_title"
+            android:summaryOn="@string/settings_pref_mute_click_desc_on"
+            android:summaryOff="@string/settings_pref_mute_click_desc_off"
+            />
+
+        <CheckBoxPreference
+            android:key="Rovers_Misc_Anonymous_Data"
+            android:defaultValue="@bool/misc_send_anonymous_data_default"
+            android:title="@string/settings_pref_anon_data_title"
+            android:summaryOn="@string/settings_pref_anon_data_desc_on"
+            android:summaryOff="@string/settings_pref_anon_data_desc_off"
+            />
+
+
+        <!--<CheckBoxPreference android:key="acra.enable"-->
+            <!--android:title="@string/settings_pref_crash_reports_title"-->
+            <!--android:summaryOn="@string/settings_pref_crash_reports_desc_on"-->
+            <!--android:summaryOff="@string/settings_pref_crash_reports_desc_off"-->
+            <!--android:defaultValue="true"/>-->
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

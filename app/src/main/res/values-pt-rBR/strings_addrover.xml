@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="addrover_title">Adicionar Rover</string>
+    <string name="addrover_rovers_added">rovers adicionados</string>
+    <string name="addrover_remaining">restante</string>
+    <string name="addrover_dialcall_action_error">Atalhos de Discagem/Ligação não são suportados, por favor use a Ação de Contato Direto.</string>
+    <string name="addrover_apps">Aplicativos</string>
+    <string name="addrover_shortcuts">Atalhos</string>
+    <string name="addrover_actions">Ações</string>
+    <string name="addrover_folder">Pasta</string>
+    <string name="addrover_get_unlimited">Consiga rovers ilimitados</string>
+    <string name="addrover_cancel">cancelar</string>
+    <string name="addrover_add">adadicionar</string>
+</resources>

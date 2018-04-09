@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="trigger_background_color_default">@color/md_grey_200</color>
+    <color name="trigger_icon_color_default">@color/md_light_blue_A400</color>
+
+    <color name="items_default_application_color_default">@color/md_light_blue_A400</color>
+    <color name="items_default_shortcut_color_default">@color/md_pink_A400</color>
+    <color name="items_default_folder_color_default">@color/md_amber_A400</color>
+
+
+
+
+    <bool name="misc_mute_click_sound_default">false</bool>
+
+    <bool name="host_add_on_edit_only_default">false</bool>
+
+    <bool name="misc_send_anonymous_data_default">true</bool>
+
+    <bool name="misc_send_crash_reports_default">true</bool>
+
+    <bool name="trigger_independent_size_default">false</bool>
+
+
+    <!-- Rest Alpha - Rovers_Trigger_Rest_Alpha -->
+    <string name="trigger_rest_alpha_default" translatable="false">@string/trigger_rest_alpha_value_33</string>
+
+    <string name="trigger_rest_alpha_value_25" translatable="false">0.25</string>
+    <string name="trigger_rest_alpha_value_33" translatable="false">0.33</string>
+    <string name="trigger_rest_alpha_value_50" translatable="false">0.50</string>
+    <string name="trigger_rest_alpha_value_67" translatable="false">0.67</string>
+    <string name="trigger_rest_alpha_value_75" translatable="false">0.75</string>
+    <string name="trigger_rest_alpha_value_100" translatable="false">1</string>
+
+    <string-array name="trigger_rest_alpha_values_array" translatable="false">
+        <item>0.25</item>
+        <item>0.33</item>
+        <item>0.50</item>
+        <item>0.67</item>
+        <item>0.75</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="trigger_rest_alpha_entries_array" translatable="false">
+        <item>25%</item>
+        <item>33%</item>
+        <item>50%</item>
+        <item>67%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <!-- END Rest Alpha - Rovers_Trigger_Rest_Alpha -->
+
+
+    <!-- Rest Offset - Rovers_Trigger_Rest_Offset -->
+    <string name="trigger_rest_offset_default" translatable="false">@string/trigger_rest_offset_value_25</string>
+    <string name="trigger_rest_offset_value_0" translatable="false">0</string>
+    <string name="trigger_rest_offset_value_10" translatable="false">0.1</string>
+    <string name="trigger_rest_offset_value_25" translatable="false">0.25</string>
+    <string name="trigger_rest_offset_value_33" translatable="false">0.33</string>
+    <string name="trigger_rest_offset_value_50" translatable="false">0.50</string>
+    <string name="trigger_rest_offset_value_67" translatable="false">0.67</string>
+
+    <string-array name="trigger_rest_offset_values_array" translatable="false">
+        <item>0</item>
+        <item>0.1</item>
+        <item>0.25</item>
+        <item>0.33</item>
+        <item>0.50</item>
+        <item>0.67</item>
+    </string-array>
+
+    <string-array name="trigger_rest_offset_entries_array" translatable="false">
+        <item>0%</item>
+        <item>10%</item>
+        <item>25%</item>
+        <item>33%</item>
+        <item>50%</item>
+        <item>67%</item>
+    </string-array>
+    <!-- END Rest Offset - Rovers_Trigger_Rest_Offset -->
+
+    <!-- Sticky Corner - Rovers_Host_Sticky_Corner -->
+    <integer name="host_sticky_corner_default">@integer/host_sticky_corner_value_closestcorner</integer>
+    <integer name="host_sticky_corner_value_closestcorner">0</integer>
+    <integer name="host_sticky_corner_value_topleft">1</integer>
+    <integer name="host_sticky_corner_value_topright">2</integer>
+    <integer name="host_sticky_corner_value_bottomleft">3</integer>
+    <integer name="host_sticky_corner_value_bottomright">4</integer>
+
+
+    <string-array name="host_sticky_corner_values_array" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="host_sticky_corner_entries_array" translatable="false">
+        <item>Closest Corner</item>
+        <item>Top Left</item>
+        <item>Top Right</item>
+        <item>Bottom Left</item>
+        <item>Bottom Right</item>
+    </string-array>
+
+    <!-- END Sticky Corner - Rovers_Host_Sticky_Corner -->
+
+    <!-- Orientation - Rovers_Host_Orientation -->
+    <integer name="host_orientation_default">@integer/host_orientation_value_vertical</integer>
+    <integer name="host_orientation_value_auto">0</integer>
+    <integer name="host_orientation_value_vertical">1</integer>
+    <integer name="host_orientation_value_horizontal">2</integer>
+
+
+    <string-array name="host_orientation_values_array" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="host_orientation_entries_array" translatable="false">
+        <item>Auto Detect (Beta)</item>
+        <item>Vertical</item>
+        <item>Horizontal (Beta)</item>
+    </string-array>
+
+    <!-- END Orientation - Rovers_Host_Orientation -->
+
+
+    <!-- Item Size - Items_Item_Size & Trigger_Item_Size -->
+    <integer name="items_item_size_default">100</integer>
+    <integer name="trigger_item_size_default">100</integer>
+
+
+    <string-array name="item_size_values_array" translatable="false">
+        <item>75</item>
+        <item>80</item>
+        <item>85</item>
+        <item>90</item>
+        <item>95</item>
+        <item>100</item>
+        <item>105</item>
+        <item>110</item>
+        <item>115</item>
+        <item>120</item>
+        <item>125</item>
+    </string-array>
+
+    <string-array name="item_size_entries_array" translatable="false">
+        <item>75%</item>
+        <item>80%</item>
+        <item>85%</item>
+        <item>90%</item>
+        <item>95%</item>
+        <item>100%</item>
+        <item>105%</item>
+        <item>110%</item>
+        <item>115%</item>
+        <item>120%</item>
+        <item>125%</item>
+    </string-array>
+
+    <!-- END Item Size - Rovers_Host_Orientation -->
+
+</resources>

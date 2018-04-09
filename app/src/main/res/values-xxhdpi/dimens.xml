@@ -1,0 +1,50 @@
+<resources>
+    <!-- Panels -->
+    <dimen name="panel_height">48dp</dimen>
+    <dimen name="panel_bottom_height">56dp</dimen>
+
+
+    <dimen name="panel_elevation">3dp</dimen>
+
+    <!-- Cards -->
+    <dimen name="card_elevation_normal">2dp</dimen>
+    <dimen name="card_margin_normal">8dp</dimen>
+    <dimen name="card_padding_normal">8dp</dimen>
+
+    <!-- Gaps -->
+    <dimen name="gap_tiny">2dp</dimen>
+    <dimen name="gap_small">4dp</dimen>
+    <dimen name="gap_normal">8dp</dimen>
+    <dimen name="gap_large">12dp</dimen>
+    <dimen name="gap_large_negative">-12dp</dimen>
+    <dimen name="gap_xlarge">16dp</dimen>
+    <dimen name="gap_huge">32dp</dimen>
+
+
+    <!-- Content -->
+    <dimen name="content_offset_internal">@dimen/gap_small</dimen>
+    <dimen name="content_offset_small">@dimen/gap_normal</dimen>
+    <dimen name="content_offset_normal">@dimen/gap_xlarge</dimen>
+
+    <!-- Button -->
+    <dimen name="button_height_normal">36dp</dimen>
+    <dimen name="imagebutton_padding">8dp</dimen>
+
+    <!-- Grids -->
+    <dimen name="grid_icon_column_width">96dp</dimen>
+
+    <!-- Image Icons -->
+    <dimen name="image_icon_tiny">28dp</dimen>
+    <dimen name="image_icon_small">36dp</dimen>
+    <dimen name="image_icon_normal">48dp</dimen>
+    <dimen name="image_icon_large">56dp</dimen>
+    <dimen name="image_icon_xlarge">64dp</dimen>
+
+    <!-- Color Grid Dimens -->
+    <dimen name="color_grid_item_size">@dimen/image_icon_normal</dimen>
+    <dimen name="color_grid_circle_size">@dimen/image_icon_small</dimen>
+    <dimen name="color_grid_extra_padding">@dimen/gap_huge</dimen>
+
+
+
+</resources>
