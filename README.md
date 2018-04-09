@@ -38,6 +38,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Acknowledgments
-* This app is using the amazing **StandOut** library of pingpongboss under MIT license https://github.com/pingpongboss/StandOut
-* In-app billing is dont with OpenIAB library under Apache 2.0 license https://github.com/onepf/OpenIAB
+* This app is using the amazing **StandOut** library of pingpongboss, with minor modifications, under MIT license https://github.com/pingpongboss/StandOut
+* In-app billing is done with OpenIAB library under Apache 2.0 license https://github.com/onepf/OpenIAB
 
